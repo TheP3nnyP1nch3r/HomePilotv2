@@ -1,0 +1,121 @@
+{
+  "posts": [
+    {
+      "slug": "price-your-own-listing",
+      "title": "How to price your own listing without guessing",
+      "kicker": "Pricing",
+      "excerpt": "The three numbers that decide your list price — and the one most sellers use by mistake.",
+      "readTime": "4 min read",
+      "date": "2026-08-28",
+      "image": "",
+      "imageNote": "Kitchen table with a laptop showing comps, or a printed CMA",
+      "accent": "#E08A5F",
+      "metaDescription": "A practical method for setting your own list price using comps, absorption rate, and price-band testing — without relying on an agent's opinion.",
+      "body": [
+        {"p": "Most sellers set their price from one of three things: what they paid, what they need, or what a neighbor claims they got. None of those are prices. They're feelings with a dollar sign attached."},
+        {"p": "A list price is a prediction. You are guessing what a specific buyer, in this specific month, will agree to pay. There is a real method for that, and it uses three numbers."},
+        {"h": "1. Closed comps, not listed comps"},
+        {"p": "Find three to five homes that actually closed in the last 90 days within roughly a mile, similar square footage, similar bed and bath count, similar condition. Closed — not listed. Anyone can ask for a number. Only closings tell you what somebody paid."},
+        {"p": "Adjust honestly. A finished basement is worth something. A new roof is worth less than it cost you. A renovation you love and nobody else would choose is worth close to zero."},
+        {"h": "2. Absorption rate"},
+        {"p": "Count how many homes in your price band sold in the last six months, then divide by six. That's how many sell per month. Now count how many are currently for sale in that band and divide by the monthly number. If there are 18 active and 3 sell a month, you're looking at six months of inventory — a buyer's market, and your price has to respect that."},
+        {"p": "Under three months is a seller's market and you can push. Over six and aggressive pricing just buys you a long, expensive stall."},
+        {"h": "3. The search-band test"},
+        {"p": "Buyers don't browse by exact dollar. They set a range, usually in round numbers. List at $412,000 and you're invisible to everyone who capped their search at $400,000 — and you're competing with everything up to $425,000. Price at the top of a band, not just over the bottom of the next one."},
+        {"pull": "The first two weeks generate the most traffic your listing will ever get. Mispricing spends that traffic on nothing."},
+        {"h": "What a wrong price actually costs"},
+        {"p": "Overpricing does not mean you sell for less later. It means you sell for less later, after a price cut that signals weakness, on a listing with a stale date that buyers read as a defect. The cure is usually two to five percent below where you would have landed if you had priced correctly on day one."},
+        {"p": "Underpricing in a slow market doesn't reliably create a bidding war either. It creates one offer, at your price, and no leverage."},
+        {"h": "The honest summary"},
+        {"p": "You can do this yourself. It takes a few hours and a willingness to be unflattered by your own data. What you're buying when you bring in a broker is not access to the numbers — it's someone who has watched a few hundred of these and will tell you when your comps are wishful."}
+      ]
+    },
+    {
+      "slug": "mls-is-not-a-marketing-plan",
+      "title": "Most agents' whole marketing plan is one MLS upload",
+      "kicker": "Marketing",
+      "excerpt": "\"Full-service marketing\" usually means a syndication feed and a sign in the yard. Here's how to check.",
+      "readTime": "4 min read",
+      "date": "2026-08-21",
+      "image": "",
+      "imageNote": "A yard sign, or a phone showing a listing on a portal",
+      "accent": "#2C2A28",
+      "metaDescription": "What listing agents actually do to market a home, why MLS syndication does most of the work, and the questions to ask before paying a commission for it.",
+      "body": [
+        {"p": "Ask a listing agent how they'll market your home and you'll hear a list: MLS, professional photos, syndication to the major portals, social media, an open house, our sphere of buyers."},
+        {"p": "Strip that down and it's usually one action with several names. The home goes into the MLS. The MLS pushes it to the portals automatically. Everything after that is a screenshot of the portal listing posted to a feed."},
+        {"h": "Syndication is a feed, not an effort"},
+        {"p": "When a listing hits the MLS it flows to the big search sites without anyone doing anything. That distribution is real, and it's most of where your buyer comes from. It's also automatic, identical for every listing, and not a service anybody is meaningfully performing."},
+        {"p": "So when marketing is the justification for a percentage of your sale price, the fair question is: which part of this scales with my home's value? The upload doesn't take longer for a $700,000 house."},
+        {"h": "What actually moves a listing"},
+        {"p": "Three things reliably change outcomes, and none of them are distribution."},
+        {"list": [
+          "Photography. The first photo decides whether anyone clicks. This is the single highest-leverage dollar you can spend.",
+          "The first two lines of the description, which is all most buyers read before deciding to scroll on.",
+          "Price positioning inside the search band buyers are actually using."
+        ]},
+        {"p": "Notice that all three are done once, before the listing goes live, and then they either work or they don't."},
+        {"pull": "Ask to see the last three listings they marketed. Not the wins — the last three, in order."},
+        {"h": "Questions that get real answers"},
+        {"p": "Who takes the photos, and can I see the last three sets? Will you write the description or will I? What happens in week three if we get traffic and no offers? What specifically do you do that a syndication feed doesn't?"},
+        {"p": "A good agent has crisp answers and won't be offended. The answer you're listening for is about pricing and negotiation, because that's where the actual expertise lives."},
+        {"h": "The point"},
+        {"p": "Marketing a house in 2026 is largely solved and largely free. Pricing it correctly and negotiating the offer are not solved, and that's the work worth paying for. Pay for the judgment. Don't pay a percentage for an upload."}
+      ]
+    },
+    {
+      "slug": "free-marketing-beats-paid",
+      "title": "The free marketing that beats the paid kind",
+      "kicker": "Marketing",
+      "excerpt": "Boosted posts and glossy brochures underperform three things that cost nothing.",
+      "readTime": "3 min read",
+      "date": "2026-08-14",
+      "image": "",
+      "imageNote": "Neighborhood street scene, or a phone with a listing being shared",
+      "accent": "#6FA8DC",
+      "metaDescription": "Why organic listing exposure — neighbors, community groups, and the MLS feed — outperforms paid real estate advertising for most home sellers.",
+      "body": [
+        {"p": "Paid real estate advertising exists mostly to make sellers feel like something is happening. A boosted post reaches people who are not buying a house this quarter. A printed brochure reaches people already standing in your living room."},
+        {"p": "The exposure that produces offers is almost entirely free, and it comes from three places."},
+        {"h": "Your neighbors"},
+        {"p": "A meaningful share of buyers already have a connection to the neighborhood — a friend there, a commute that works, kids in the school. Your neighbors talk to those people constantly and you don't. Telling twenty neighbors your house is coming to market is a better use of an afternoon than any ad budget under a thousand dollars."},
+        {"h": "Local groups where people already ask"},
+        {"p": "Every town has the community group where somebody posts \"anyone know of a 3-bed coming up near the elementary school?\" every week. Answering those is free, targeted, and reaches people at the exact moment of intent. Paid targeting is an attempt to simulate this."},
+        {"h": "The feed you're already in"},
+        {"p": "Once you're listed, the portals distribute you to everyone with a saved search matching your criteria. Those people get an email the day you go live. That is the highest-intent audience that will ever see your home, it arrives automatically, and it's why the first two weeks matter so much."},
+        {"pull": "Free channels reach people who are buying. Paid channels reach people who are scrolling."},
+        {"h": "Where money is worth spending"},
+        {"p": "Photography. Every time. Then, distantly: a floor plan, and decent cleaning and staging of the three rooms that appear in the first five photos."},
+        {"p": "That's the list. If someone is proposing a marketing spend beyond it, ask what specific buyer it reaches that the saved-search email doesn't."},
+        {"h": "The trade"},
+        {"p": "Free marketing costs time and a little social awkwardness. Paid marketing costs money and produces a report. Sellers reliably prefer the report, which is exactly why the free version stays underused."}
+      ]
+    },
+    {
+      "slug": "buyers-find-you-first",
+      "title": "Buyers find your house. Their agent just confirms it.",
+      "kicker": "How buyers behave",
+      "excerpt": "The old model had agents delivering listings to buyers. It runs the other way now — and that changes what you should pay for.",
+      "readTime": "4 min read",
+      "date": "2026-08-07",
+      "image": "",
+      "imageNote": "Someone on a couch scrolling listings on a phone",
+      "accent": "#BC5730",
+      "metaDescription": "Buyers now find listings themselves and send them to their agent. What that reversal means for how home sellers should think about commission.",
+      "body": [
+        {"p": "Thirty years ago the agent held the inventory. Buyers came in, sat down, and were shown a book of what was available. Access was the product, and it was worth paying for."},
+        {"p": "That's inverted. Buyers now scroll listings at night, save the ones they like, and text their agent: can we see this Saturday? The agent's role starts after the house has already been found."},
+        {"h": "Why this matters to a seller"},
+        {"p": "If buyers discover your home themselves through the portals, then the thing that gets your house seen is being in the feed with a good first photo and a defensible price. Not an agent's network. Not a broker's buyer list — a list which, if you ask, usually turns out to be the same portal data everyone else has."},
+        {"p": "So the commission conversation shifts. You're not buying access to buyers. Access is a syndication feed and it's included. You're buying help deciding what to do when the offers arrive."},
+        {"h": "What buyer's agents still genuinely do"},
+        {"p": "Plenty, and it's worth understanding because you'll be negotiating with one. They tour homes, sanity-check the price, structure the offer, manage inspection and financing timelines, and talk their client off a ledge twice a month. That's real work — it's just downstream of discovery, not upstream."},
+        {"pull": "Access used to be the product. Now access is free and judgment is the product."},
+        {"h": "What that means practically"},
+        {"p": "Get the listing into the MLS so the feed picks it up. Spend on photography, because the first image is the entire discovery step. Price inside the band buyers search. Then be genuinely ready for the part that starts when an offer lands — because that's where the money is actually won or lost, and it has nothing to do with marketing."},
+        {"h": "One caveat"},
+        {"p": "Buyer-agent compensation is negotiable and varies by market and by deal. Whether you offer anything, and how much, is a strategy decision with real consequences for showing volume. It deserves a deliberate conversation, not a default."}
+      ]
+    }
+  ]
+}
