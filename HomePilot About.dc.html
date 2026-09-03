@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="image-slot.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet" />
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Geist',-apple-system,'Segoe UI',sans-serif; background:#FAF6F0; -webkit-font-smoothing:antialiased; }
+  h1,h2,h3,h4 { font-family:'Quicksand',sans-serif; }
+  a { color:#D06E42; text-decoration:none; }
+  a:hover { color:#B85A30; }
+  button { font-family:inherit; border:none; background:none; cursor:pointer; }
+  html { scroll-behavior:smooth; }
+  [data-reveal] { opacity:0; transform:translateY(20px); }
+  [data-reveal].hp-in { opacity:1 !important; transform:none !important; }
+  [data-lift] { transition:transform .4s cubic-bezier(.34,1.56,.64,1), box-shadow .4s cubic-bezier(.22,1,.36,1); }
+  [data-lift]:hover { transform:translateY(-5px); }
+  [data-shine] { position:relative; overflow:hidden; isolation:isolate; }
+  [data-shine]::after { content:''; position:absolute; inset:0; z-index:1; background:linear-gradient(105deg,transparent 30%,rgba(255,255,255,.45) 48%,transparent 62%); transform:translateX(-130%); transition:transform .7s cubic-bezier(.22,1,.36,1); pointer-events:none; }
+  [data-shine]:hover::after { transform:translateX(130%); }
+  [data-shine] svg { transition:transform .32s cubic-bezier(.34,1.56,.64,1); }
+  [data-shine]:hover svg { transform:translateX(4px); }
+  button:active { transform:translateY(1px) scale(.988); }
+  [data-zoom] { overflow:hidden; }
+  [data-zoom] > * { transition:transform 1s cubic-bezier(.22,1,.36,1); }
+  [data-lift]:hover [data-zoom] > * { transform:scale(1.05); }
+  [data-about-team] { grid-template-columns:1fr; }
+  @media (min-width:820px) { [data-about-team] { grid-template-columns:1fr 1fr; } }
+  [data-belief-grid] { grid-template-columns:1fr; }
+  @media (min-width:760px) { [data-belief-grid] { grid-template-columns:repeat(3,1fr); } }
+  [data-story-split] { grid-template-columns:1fr; }
+  @media (min-width:900px) { [data-story-split] { grid-template-columns:1.05fr .95fr; } }
+  @media (max-width:640px) {
+    main > section { padding-top:clamp(54px,13vw,72px) !important; padding-bottom:clamp(54px,13vw,72px) !important; }
+    main > section > div, header > div, footer > div { padding-inline:20px !important; }
+    body, main { font-size:17px !important; }
+    h1 { font-size:clamp(2.1rem,8.6vw,2.6rem) !important; letter-spacing:-.015em !important; }
+    h2 { font-size:clamp(1.62rem,6.4vw,2rem) !important; letter-spacing:-.015em !important; }
+    h3 { font-size:1.16rem !important; }
+    main a[data-shine] { width:100% !important; min-height:54px !important; }
+    header a[style*="background:#E08A5F"] { padding:11px 16px !important; font-size:.85rem !important; }
+    [data-zoom] { aspect-ratio:4/3 !important; }
+    [data-lift], article { border-radius:18px !important; }
+  }
+  @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } [data-reveal] { opacity:1 !important; transform:none !important; } [data-shine]::after { display:none; } [data-zoom] > *, [data-shine] svg, button { transition:none !important; transform:none !important; } }
+</style>
+</helmet>
+
+<div ref="{{ root }}" style="background:#FAF6F0;color:#6B655C;font-size:16px;line-height:1.6;overflow-x:hidden">
+
+<header style="padding:20px 0;border-bottom:1px solid rgba(44,42,40,.08);background:#FAF6F0">
+  <div style="max-width:1000px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px);display:flex;align-items:center;justify-content:space-between;gap:20px">
+    <a href="HomePilot v5.4.dc.html" aria-label="HomePilot home" style="display:flex;align-items:center;gap:10px;font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.25rem;letter-spacing:-.01em;color:#2C2A28">
+      <svg viewBox="0 0 100 100" aria-hidden="true" style="width:31px;height:31px">
+        <path d="M 16 62 A 37 37 0 1 1 84 62" fill="none" stroke="#6FA8DC" stroke-width="9" stroke-linecap="round"></path>
+        <path d="M50 30 L66 72 L50 61 L34 72 Z" fill="#2C2A28"></path>
+        <path d="M50 78 L57 90 L43 90 Z" fill="#E08A5F"></path>
+      </svg>
+      <span>Home<span style="color:#E08A5F">Pilot</span></span>
+    </a>
+    <a href="HomePilot v5.4.dc.html#book-cta" style="display:inline-flex;align-items:center;justify-content:center;padding:11px 22px;background:#E08A5F;color:#fff;border-radius:12px;font-family:'Quicksand',sans-serif;font-weight:700;font-size:.9rem;min-height:44px;box-shadow:0 8px 18px -8px rgba(224,138,95,.6)" style-hover="background:#D06E42;color:#fff">Book a Free Call</a>
+  </div>
+</header>
+
+<main>
+
+<section data-screen-label="About hook" style="padding-block:clamp(56px,7vw,104px)">
+  <div style="max-width:1000px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px)">
+    <p data-reveal="" style="font-size:.72rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#D06E42;margin-bottom:16px">About HomePilot</p>
+    <h1 data-reveal="" data-d=".06s" style="font-size:clamp(2.4rem,5.4vw,4rem);font-weight:700;line-height:1.05;letter-spacing:-.025em;color:#2C2A28;max-width:24ch;text-wrap:balance">We got tired of watching sellers pay $18,000 for paperwork.</h1>
+    <p data-reveal="" data-d=".13s" style="font-size:clamp(1.08rem,1.6vw,1.3rem);line-height:1.55;color:#6B655C;max-width:52ch;margin-top:22px">That's the part nobody says out loud: the commission was never priced against the work. It was priced against your house.</p>
+  </div>
+</section>
+
+<section data-screen-label="Credibility" style="padding-block:clamp(46px,6vw,84px);background:#2C2A28;color:rgba(255,255,255,.8)">
+  <div style="max-width:1000px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px)">
+    <p data-reveal="" style="font-size:clamp(1.14rem,1.9vw,1.5rem);line-height:1.55;color:#fff;font-weight:500;max-width:62ch;letter-spacing:-.01em;text-wrap:pretty">HomePilot is a licensed brokerage run by a managing broker and a licensed advisor. We handle pricing strategy, offer negotiation, inspection responses, and the contract path to closing — the same work a listing agent does, minus the percentage. We are not a discount portal, a lead-gen site, or a referral desk that hands you off to whoever answered first.</p>
+    <div data-reveal="" data-d=".1s" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:26px">
+      <span style="font-size:.85rem;font-weight:600;color:#fff;background:rgba(255,255,255,.1);border-radius:100px;padding:9px 16px">Broker-led</span>
+      <span style="font-size:.85rem;font-weight:600;color:#fff;background:rgba(255,255,255,.1);border-radius:100px;padding:9px 16px">Flat fee, quoted upfront</span>
+      <span style="font-size:.85rem;font-weight:600;color:#fff;background:rgba(255,255,255,.1);border-radius:100px;padding:9px 16px">You stay the seller of record</span>
+      <span style="font-size:.85rem;font-weight:600;color:#fff;background:rgba(255,255,255,.1);border-radius:100px;padding:9px 16px">Nationwide</span>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Story" style="padding-block:clamp(56px,7vw,104px);background:#F4EEE4">
+  <div style="max-width:1000px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px)">
+    <div data-story-split="" style="display:grid;gap:clamp(28px,4vw,52px);align-items:start">
+      <div data-reveal="">
+        <h2 style="font-size:clamp(1.9rem,3.4vw,2.7rem);font-weight:700;color:#2C2A28;letter-spacing:-.02em;line-height:1.1;margin-bottom:20px;text-wrap:balance">The listing that started it.</h2>
+        <div style="display:flex;flex-direction:column;gap:16px;font-size:1.02rem;color:#6B655C;line-height:1.65">
+          <p>A seller came to us after her home had sat for four months. She'd done everything her agent asked. The price was wrong from day one and nobody had told her, because the conversation that would have fixed it was uncomfortable and the commission got paid either way.</p>
+          <p>We repriced it, rewrote the positioning, and coached her through two offers in eleven days. Then we ran the numbers on what that advice would have cost her at 3%. It was more than her kitchen renovation.</p>
+          <p style="color:#2C2A28;font-weight:600">That was the whole idea. Charge for the strategy, not for the size of someone's house.</p>
+          <p>So we built the FlightPlan — the process we'd already been running informally — and put one price on it. Sellers keep the difference. We keep the part of the job that actually requires a license and a spine.</p>
+        </div>
+      </div>
+      <div data-reveal="" data-d=".1s" data-lift="" style="border-radius:24px;overflow:hidden;box-shadow:0 30px 60px -30px rgba(44,42,40,.45);background:#FBEEE6">
+        <div data-zoom="" style="aspect-ratio:4/5;background:#FBEEE6">
+          <image-slot id="hp-about-story" shape="rect" fit="cover" placeholder="Kurtis and Ty together — candid, on a call or at a kitchen table. Warm light." style="width:100%;height:100%"></image-slot>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Beliefs" style="padding-block:clamp(56px,7vw,100px)">
+  <div style="max-width:1000px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px)">
+    <h2 data-reveal="" style="font-size:clamp(1.9rem,3.4vw,2.7rem);font-weight:700;color:#2C2A28;letter-spacing:-.02em;line-height:1.1;margin-bottom:clamp(28px,3.4vw,40px);max-width:22ch;text-wrap:balance">Three rules we don't break.</h2>
+    <div data-belief-grid="" style="display:grid;gap:20px">
+      <div data-lift="" data-reveal="" style="background:#fff;border-radius:22px;padding:28px 26px;border:1px solid rgba(44,42,40,.07);box-shadow:0 20px 44px -30px rgba(44,42,40,.35)">
+        <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:2rem;color:#E08A5F;line-height:1;margin-bottom:14px">01</p>
+        <h3 style="font-size:1.15rem;font-weight:700;color:#2C2A28;margin-bottom:9px">The price is the price.</h3>
+        <p style="font-size:.96rem;color:#6B655C">You hear the number before you commit, and it doesn't move because your house appraised higher.</p>
+      </div>
+      <div data-lift="" data-reveal="" data-d=".08s" style="background:#fff;border-radius:22px;padding:28px 26px;border:1px solid rgba(44,42,40,.07);box-shadow:0 20px 44px -30px rgba(44,42,40,.35)">
+        <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:2rem;color:#E08A5F;line-height:1;margin-bottom:14px">02</p>
+        <h3 style="font-size:1.15rem;font-weight:700;color:#2C2A28;margin-bottom:9px">You hear the hard version.</h3>
+        <p style="font-size:.96rem;color:#6B655C">If your list price is wrong, we say so on the first call. Flattery is what costs sellers four months.</p>
+      </div>
+      <div data-lift="" data-reveal="" data-d=".16s" style="background:#fff;border-radius:22px;padding:28px 26px;border:1px solid rgba(44,42,40,.07);box-shadow:0 20px 44px -30px rgba(44,42,40,.35)">
+        <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:2rem;color:#E08A5F;line-height:1;margin-bottom:14px">03</p>
+        <h3 style="font-size:1.15rem;font-weight:700;color:#2C2A28;margin-bottom:9px">You sign every decision.</h3>
+        <p style="font-size:.96rem;color:#6B655C">We advise, model the trade-offs, and hand you the call. It stays your sale and your name on the line.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Who we are" style="padding-block:clamp(56px,7vw,100px);background:#F4EEE4">
+  <div style="max-width:1000px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px)">
+    <div data-reveal="" style="max-width:600px;margin-bottom:clamp(28px,3.4vw,40px)">
+      <h2 style="font-size:clamp(1.9rem,3.4vw,2.7rem);font-weight:700;color:#2C2A28;letter-spacing:-.02em;line-height:1.1">The two people you'll actually talk to.</h2>
+      <p style="font-size:1.02rem;color:#6B655C;margin-top:12px">Not a rotating team. Not a call center. Same two names from the first call through closing day.</p>
+    </div>
+    <div data-about-team="" style="display:grid;gap:22px">
+      <article data-lift="" data-reveal="" style="background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 20px 44px -26px rgba(44,42,40,.4)">
+        <div data-zoom="" style="aspect-ratio:16/10;background:#FBEEE6"><image-slot id="hp-about-kurtis" shape="rect" src="images/kurtis.png" fit="cover" placeholder="Kurtis — professional photo" style="width:100%;height:100%"></image-slot></div>
+        <div style="padding:24px 26px 28px">
+          <h3 style="font-size:1.3rem;font-weight:700;color:#2C2A28">Kurtis <span style="font-weight:500;font-size:.95rem;color:#8a857c">· Managing Broker</span></h3>
+          <p style="font-size:.96rem;color:#6B655C;margin-top:10px">Owns the contract side: contingencies, inspection responses, and the negotiation posture behind every FlightPlan. If a deal is going to break, Kurtis sees it a week early.</p>
+        </div>
+      </article>
+      <article data-lift="" data-reveal="" data-d=".08s" style="background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 20px 44px -26px rgba(44,42,40,.4)">
+        <div data-zoom="" style="aspect-ratio:16/10;background:#FBEEE6"><image-slot id="hp-about-ty" shape="rect" src="images/ty.jpeg" fit="cover" placeholder="Ty — professional photo" style="width:100%;height:100%"></image-slot></div>
+        <div style="padding:24px 26px 28px">
+          <h3 style="font-size:1.3rem;font-weight:700;color:#2C2A28">Ty <span style="font-weight:500;font-size:.95rem;color:#8a857c">· Real Estate Advisor</span></h3>
+          <p style="font-size:.96rem;color:#6B655C;margin-top:10px">Licensed agent and marketer. Handles how the listing is positioned, photographed, and put in front of buyers — so the strategy Kurtis builds actually gets seen.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Soft CTA" style="padding-block:clamp(56px,7vw,104px)">
+  <div style="max-width:680px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px);text-align:center">
+    <h2 data-reveal="" style="font-size:clamp(1.8rem,3.2vw,2.5rem);font-weight:700;color:#2C2A28;letter-spacing:-.02em;line-height:1.12;margin-bottom:16px;text-wrap:balance">If any of that sounded like the conversation you've been missing, take the call.</h2>
+    <p data-reveal="" data-d=".07s" style="font-size:1.05rem;color:#6B655C;margin-bottom:28px">Fifteen minutes, no pitch. You'll leave knowing what your home should list for and what it would cost to sell it either way.</p>
+    <div data-reveal="" data-d=".14s" style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-items:center">
+      <a href="HomePilot v5.4.dc.html#book-cta" data-shine="" style="display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:16px 30px;background:#E08A5F;color:#fff;border-radius:14px;font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.02rem;min-height:54px;box-shadow:0 10px 24px -8px rgba(224,138,95,.7)" style-hover="background:#D06E42;color:#fff">Book a Free 15-Minute Call
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:17px;height:17px"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+      </a>
+      <a href="HomePilot v5.4.dc.html#math" style="display:inline-flex;align-items:center;justify-content:center;padding:16px 22px;color:#2C2A28;border-radius:14px;font-family:'Quicksand',sans-serif;font-weight:700;font-size:1rem;min-height:54px" style-hover="color:#D06E42">See the math first</a>
+    </div>
+    <p data-reveal="" data-d=".2s" style="font-size:.88rem;color:#8a857c;margin-top:20px">Licensed pros · Nationwide · No obligation</p>
+  </div>
+</section>
+
+</main>
+
+<footer style="padding-block:32px;border-top:1px solid rgba(44,42,40,.08)">
+  <div style="max-width:1000px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px);display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between">
+    <p style="font-size:.85rem;color:#8a857c">© HomePilot. Licensed brokerage. You stay the seller of record.</p>
+    <a href="HomePilot v5.4.dc.html" style="font-size:.88rem;font-weight:600">← Back to HomePilot</a>
+  </div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1200,&quot;height&quot;:900}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    const scope = this.rootEl || document;
+    const els = scope.querySelectorAll('[data-reveal]');
+    els.forEach(el => {
+      const d = el.getAttribute('data-d') || '0s';
+      el.style.transition = `opacity .6s cubic-bezier(.22,1,.36,1) ${d}, transform .6s cubic-bezier(.22,1,.36,1) ${d}`;
+    });
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('hp-in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+    els.forEach(el => io.observe(el));
+  }
+  renderVals() { return { root: el => { this.rootEl = el; } }; }
+}
+</script>
+</body>
+</html>
