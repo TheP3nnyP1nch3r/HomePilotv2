@@ -1,6 +1,79 @@
 {
   "posts": [
     {
+      "slug": "red-flags-buyers-notice",
+      "title": "What Red Flags Are Buyers Quietly Noticing in Your Home?",
+      "kicker": "Preparation",
+      "excerpt": "Four outlet covers and two patched holes once cost a seller five thousand dollars. Here's why.",
+      "image": "images/blog/staged-bedroom.jpg",
+      "accent": "#E08A5F",
+      "metaDescription": "The small home defects that make buyers offer less: value red flags, clutter, and the room-by-room fixes FSBO sellers should handle before showings.",
+      "body": [
+        {
+          "p": "A buyer once toured a home, told us they loved it, and then offered five thousand dollars under asking. When we asked why, the answer was: exposed wires in the basement and a couple of holes in the wall."
+        },
+        {
+          "p": "Four outlet covers and two patches of sheetrock. Actual cost to fix: $33.42. The buyer had assigned it a value of five thousand dollars."
+        },
+        {
+          "p": "That gap is the single most useful thing to understand about preparing a home to sell. Buyers always assign more weight to negatives than to positives, and they do it with numbers they invent on the spot."
+        },
+        {
+          "h": "Two kinds of red flag"
+        },
+        {
+          "p": "The first kind is a distraction — anything that pulls a buyer out of imagining themselves living there. Why is that door locked? Why won't this light turn on? Why is it so cold in here? Each question is a moment they spend on your house instead of their future."
+        },
+        {
+          "p": "The second kind is worse. A value red flag is the buyer thinking \"I'll need to fix that cupboard\" or \"we'd have to replace that faucet.\" That thought converts directly into a lower offer, at a price they made up."
+        },
+        {
+          "h": "The little-big things"
+        },
+        {
+          "p": "The list is unglamorous and it works:"
+        },
+        {
+          "list": [
+            "Crooked cupboards and drawers that don't slide right",
+            "Peeling wallpaper, chipped tile, holes in the wall",
+            "Running or leaking toilets",
+            "Burnt-out bulbs, exposed wires, missing outlet covers",
+            "Doors that stick or won't latch",
+            "Holes and bare patches in the yard"
+          ]
+        },
+        {
+          "p": "None of it is expensive. All of it is the kind of thing you stopped noticing about the third year you lived there."
+        },
+        {
+          "h": "Clutter is a value problem, not a tidiness problem"
+        },
+        {
+          "p": "Clearing junk isn't about looking neat. It's about showing your space. Buyers are trying to picture their own furniture in your rooms, and every box, dog bed, and footrest in the middle of the floor makes that harder."
+        },
+        {
+          "p": "Move anything that blocks movement or light — a dresser covering half a wall, a bed blocking a window, a rug that makes a room feel smaller than it is. In closets, hang only what you wear regularly and store the rest. You're not hiding your belongings; you're demonstrating that the closet is big enough for someone else's."
+        },
+        {
+          "pull": "You want a buyer walking out with no reason in mind to offer less than full price."
+        },
+        {
+          "h": "Get a second pair of eyes"
+        },
+        {
+          "p": "This is the hard part. You've adapted to every quirk in your home, which is normal and human and makes you the worst possible inspector of it. Ask a friend who hasn't been over in a while to walk through and say every critical thing they notice. It will sting slightly and save you thousands."
+        },
+        {
+          "p": "Catching value red flags before a buyer does — and knowing which ones genuinely matter in your price range — is part of what we walk sellers through at HomePilot, at a flat fee instead of a percentage of your sale."
+        },
+        {
+          "p": "Spend a weekend on the small stuff. It's the cheapest money you'll ever make back."
+        }
+      ],
+      "date": "2026-09-03"
+    },
+    {
       "slug": "what-should-you-do-when-you-accept-an-offer",
       "title": "What Should You Do the Moment You Accept an Offer?",
       "kicker": "After the offer",
