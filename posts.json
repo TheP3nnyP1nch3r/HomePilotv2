@@ -1,120 +1,391 @@
 {
   "posts": [
     {
-      "slug": "price-your-own-listing",
-      "title": "How to price your own listing without guessing",
-      "kicker": "Pricing",
-      "excerpt": "The three numbers that decide your list price — and the one most sellers use by mistake.",
-      "readTime": "4 min read",
-      "date": "2026-08-28",
+      "slug": "what-should-you-do-when-you-accept-an-offer",
+      "title": "What Should You Do the Moment You Accept an Offer?",
+      "kicker": "After the offer",
+      "excerpt": "Accepting the offer isn't the finish line. It's the start of the 30 days that decide whether the sale actually closes.",
+      "date": "2026-09-02",
       "image": "",
-      "imageNote": "Kitchen table with a laptop showing comps, or a printed CMA",
-      "accent": "#E08A5F",
-      "metaDescription": "A practical method for setting your own list price using comps, absorption rate, and price-band testing — without relying on an agent's opinion.",
-      "body": [
-        {"p": "Most sellers set their price from one of three things: what they paid, what they need, or what a neighbor claims they got. None of those are prices. They're feelings with a dollar sign attached."},
-        {"p": "A list price is a prediction. You are guessing what a specific buyer, in this specific month, will agree to pay. There is a real method for that, and it uses three numbers."},
-        {"h": "1. Closed comps, not listed comps"},
-        {"p": "Find three to five homes that actually closed in the last 90 days within roughly a mile, similar square footage, similar bed and bath count, similar condition. Closed — not listed. Anyone can ask for a number. Only closings tell you what somebody paid."},
-        {"p": "Adjust honestly. A finished basement is worth something. A new roof is worth less than it cost you. A renovation you love and nobody else would choose is worth close to zero."},
-        {"h": "2. Absorption rate"},
-        {"p": "Count how many homes in your price band sold in the last six months, then divide by six. That's how many sell per month. Now count how many are currently for sale in that band and divide by the monthly number. If there are 18 active and 3 sell a month, you're looking at six months of inventory — a buyer's market, and your price has to respect that."},
-        {"p": "Under three months is a seller's market and you can push. Over six and aggressive pricing just buys you a long, expensive stall."},
-        {"h": "3. The search-band test"},
-        {"p": "Buyers don't browse by exact dollar. They set a range, usually in round numbers. List at $412,000 and you're invisible to everyone who capped their search at $400,000 — and you're competing with everything up to $425,000. Price at the top of a band, not just over the bottom of the next one."},
-        {"pull": "The first two weeks generate the most traffic your listing will ever get. Mispricing spends that traffic on nothing."},
-        {"h": "What a wrong price actually costs"},
-        {"p": "Overpricing does not mean you sell for less later. It means you sell for less later, after a price cut that signals weakness, on a listing with a stale date that buyers read as a defect. The cure is usually two to five percent below where you would have landed if you had priced correctly on day one."},
-        {"p": "Underpricing in a slow market doesn't reliably create a bidding war either. It creates one offer, at your price, and no leverage."},
-        {"h": "The honest summary"},
-        {"p": "You can do this yourself. It takes a few hours and a willingness to be unflattered by your own data. What you're buying when you bring in a broker is not access to the numbers — it's someone who has watched a few hundred of these and will tell you when your comps are wishful."}
-      ]
-    },
-    {
-      "slug": "mls-is-not-a-marketing-plan",
-      "title": "Most agents' whole marketing plan is one MLS upload",
-      "kicker": "Marketing",
-      "excerpt": "\"Full-service marketing\" usually means a syndication feed and a sign in the yard. Here's how to check.",
-      "readTime": "4 min read",
-      "date": "2026-08-21",
-      "image": "",
-      "imageNote": "A yard sign, or a phone showing a listing on a portal",
       "accent": "#2C2A28",
-      "metaDescription": "What listing agents actually do to market a home, why MLS syndication does most of the work, and the questions to ask before paying a commission for it.",
+      "metaDescription": "What home sellers should do immediately after accepting an offer: verifying paperwork, tracking contingency deadlines, and managing the closing timeline as a FSBO seller.",
       "body": [
-        {"p": "Ask a listing agent how they'll market your home and you'll hear a list: MLS, professional photos, syndication to the major portals, social media, an open house, our sphere of buyers."},
-        {"p": "Strip that down and it's usually one action with several names. The home goes into the MLS. The MLS pushes it to the portals automatically. Everything after that is a screenshot of the portal listing posted to a feed."},
-        {"h": "Syndication is a feed, not an effort"},
-        {"p": "When a listing hits the MLS it flows to the big search sites without anyone doing anything. That distribution is real, and it's most of where your buyer comes from. It's also automatic, identical for every listing, and not a service anybody is meaningfully performing."},
-        {"p": "So when marketing is the justification for a percentage of your sale price, the fair question is: which part of this scales with my home's value? The upload doesn't take longer for a $700,000 house."},
-        {"h": "What actually moves a listing"},
-        {"p": "Three things reliably change outcomes, and none of them are distribution."},
-        {"list": [
-          "Photography. The first photo decides whether anyone clicks. This is the single highest-leverage dollar you can spend.",
-          "The first two lines of the description, which is all most buyers read before deciding to scroll on.",
-          "Price positioning inside the search band buyers are actually using."
-        ]},
-        {"p": "Notice that all three are done once, before the listing goes live, and then they either work or they don't."},
-        {"pull": "Ask to see the last three listings they marketed. Not the wins — the last three, in order."},
-        {"h": "Questions that get real answers"},
-        {"p": "Who takes the photos, and can I see the last three sets? Will you write the description or will I? What happens in week three if we get traffic and no offers? What specifically do you do that a syndication feed doesn't?"},
-        {"p": "A good agent has crisp answers and won't be offended. The answer you're listening for is about pricing and negotiation, because that's where the actual expertise lives."},
-        {"h": "The point"},
-        {"p": "Marketing a house in 2026 is largely solved and largely free. Pricing it correctly and negotiating the offer are not solved, and that's the work worth paying for. Pay for the judgment. Don't pay a percentage for an upload."}
+        {
+          "p": "You got the call. The offer is signed. There's a real temptation at this moment to exhale, start packing boxes, and assume the hard part is behind you."
+        },
+        {
+          "p": "It isn't. The period between accepting an offer and sitting at the closing table is where most sales quietly fall apart — and it's the stretch where a for-sale-by-owner seller is most likely to miss something expensive."
+        },
+        {
+          "h": "First, read the paperwork like a stranger wrote it"
+        },
+        {
+          "p": "Before anything else, go through the accepted offer line by line. Not the version you remember agreeing to — the version that's actually signed. Check the purchase price, the closing date, what's included and excluded, who pays which fees, and every deadline written into the agreement."
+        },
+        {
+          "p": "Sellers routinely discover, days later, that they agreed to cover a portion of the buyer's closing costs or left an appliance in the \"included\" column that they meant to take with them. Catching it now is a conversation. Catching it at closing is a concession."
+        },
+        {
+          "h": "Build the deadline calendar immediately"
+        },
+        {
+          "p": "Every contingency in the contract has a date attached, and those dates are the real structure of your sale. At minimum, you should have the following written down where you can see them:"
+        },
+        {
+          "list": [
+            "The inspection window, and the deadline for the buyer to submit any requests",
+            "The financing or loan-approval deadline",
+            "The appraisal date, once it's scheduled",
+            "The earnest money deposit deadline",
+            "The final walkthrough and the closing date"
+          ]
+        },
+        {
+          "p": "Missing your own deadline can put you in breach. Missing the buyer's deadline without noticing can hand them an escape hatch you didn't intend to give."
+        },
+        {
+          "h": "Get the earnest money where it belongs"
+        },
+        {
+          "p": "Ask the buyer to send their earnest money to the title company, which will hold it at no cost and disburse it appropriately at closing. Do not hold that money yourself. A seller personally holding a buyer's deposit is a lawsuit waiting to happen, and the convenience gains you nothing."
+        },
+        {
+          "pull": "The contract is now the boss of your calendar. Everything you do for the next month is either on schedule or it's a problem."
+        },
+        {
+          "h": "Prepare for the inspection before it happens"
+        },
+        {
+          "p": "Assume the buyer's inspection will produce a list. It always does. Deciding in advance which items you'd genuinely address and which you'd decline keeps you from negotiating emotionally under a deadline."
+        },
+        {
+          "p": "One firm rule: do not promise to fix anything before the buyer asks. We've seen sellers casually offer to handle the furnace \"if it goes out,\" then get held to it for six thousand dollars during the final walkthrough. Let the buyer tell you what they actually care about, then respond to that."
+        },
+        {
+          "h": "Where guidance earns its cost"
+        },
+        {
+          "p": "This phase is procedural, deadline-driven, and unforgiving of small oversights — which makes it the least glamorous and most valuable part of having someone experienced in your corner. At HomePilot, walking sellers through the accepted-offer stage is exactly what our flat-fee guidance covers: the same deadline management and contract review a listing agent provides, without a commission attached to your sale price."
+        },
+        {
+          "p": "The offer is good news. Treat the next thirty days as the actual job, and it'll stay good news through closing."
+        }
       ]
     },
     {
-      "slug": "free-marketing-beats-paid",
-      "title": "The free marketing that beats the paid kind",
-      "kicker": "Marketing",
-      "excerpt": "Boosted posts and glossy brochures underperform three things that cost nothing.",
-      "readTime": "3 min read",
-      "date": "2026-08-14",
-      "image": "",
-      "imageNote": "Neighborhood street scene, or a phone with a listing being shared",
+      "slug": "does-curb-appeal-change-what-buyers-pay",
+      "title": "Does Curb Appeal Really Change What Buyers Will Pay?",
+      "kicker": "Curb appeal",
+      "excerpt": "Your listing photos and the view from the street are the same decision — and it's usually made before anyone walks inside.",
+      "date": "2026-08-29",
+      "image": "images/blog/curb-appeal-street.jpg",
       "accent": "#6FA8DC",
-      "metaDescription": "Why organic listing exposure — neighbors, community groups, and the MLS feed — outperforms paid real estate advertising for most home sellers.",
+      "metaDescription": "Why curb appeal affects home sale price, what buyers notice first, and the low-cost exterior improvements that matter most for FSBO sellers.",
       "body": [
-        {"p": "Paid real estate advertising exists mostly to make sellers feel like something is happening. A boosted post reaches people who are not buying a house this quarter. A printed brochure reaches people already standing in your living room."},
-        {"p": "The exposure that produces offers is almost entirely free, and it comes from three places."},
-        {"h": "Your neighbors"},
-        {"p": "A meaningful share of buyers already have a connection to the neighborhood — a friend there, a commute that works, kids in the school. Your neighbors talk to those people constantly and you don't. Telling twenty neighbors your house is coming to market is a better use of an afternoon than any ad budget under a thousand dollars."},
-        {"h": "Local groups where people already ask"},
-        {"p": "Every town has the community group where somebody posts \"anyone know of a 3-bed coming up near the elementary school?\" every week. Answering those is free, targeted, and reaches people at the exact moment of intent. Paid targeting is an attempt to simulate this."},
-        {"h": "The feed you're already in"},
-        {"p": "Once you're listed, the portals distribute you to everyone with a saved search matching your criteria. Those people get an email the day you go live. That is the highest-intent audience that will ever see your home, it arrives automatically, and it's why the first two weeks matter so much."},
-        {"pull": "Free channels reach people who are buying. Paid channels reach people who are scrolling."},
-        {"h": "Where money is worth spending"},
-        {"p": "Photography. Every time. Then, distantly: a floor plan, and decent cleaning and staging of the three rooms that appear in the first five photos."},
-        {"p": "That's the list. If someone is proposing a marketing spend beyond it, ask what specific buyer it reaches that the saved-search email doesn't."},
-        {"h": "The trade"},
-        {"p": "Free marketing costs time and a little social awkwardness. Paid marketing costs money and produces a report. Sellers reliably prefer the report, which is exactly why the free version stays underused."}
+        {
+          "p": "Short answer: yes. Longer answer: more than almost anything else you could spend a weekend on."
+        },
+        {
+          "p": "Think about how you pick a place for lunch on an unfamiliar street. You judge the window, the sign, whether it looks cared for — and you make that call in about two seconds, before you know anything about the food. Buyers do the same thing with houses, first in your listing photos and then in the car outside."
+        },
+        {
+          "h": "Go stand in the street"
+        },
+        {
+          "p": "This sounds too simple to be useful, and it's the single most effective exercise in this whole article. Walk out to the curb and look at your home the way a stranger would. Not fondly. Critically."
+        },
+        {
+          "p": "Is the paint tired? Is there a gutter sagging, a shrub swallowing a window, a dead patch of lawn, a screen door that doesn't sit right? You stopped seeing these things years ago. A buyer sees only these things."
+        },
+        {
+          "p": "A useful question: does your home say \"come on in, you're home,\" or does it say \"come on in and work on me\"? Buyers are generally not shopping for a project unless the price says project."
+        },
+        {
+          "h": "What actually moves the needle outside"
+        },
+        {
+          "list": [
+            "Mow, edge, and clear the beds — an unkempt yard reads as deferred maintenance everywhere else",
+            "Wash the exterior and the windows; dirt reads as age",
+            "Paint or clean the front door and replace dated hardware — it's the one thing every buyer physically touches",
+            "Fix the small broken things: burnt-out fixtures, a crooked mailbox, cracked walkway edges",
+            "Trim anything blocking a window, and clear the walkway all the way to the door"
+          ]
+        },
+        {
+          "p": "None of that is a renovation. Most of it is a weekend and a few hundred dollars, and it changes the first photo in your listing — which is the photo that determines whether anyone clicks on the other twenty."
+        },
+        {
+          "pull": "Buyers assign far more weight to negatives than to positives. One visible flaw outside becomes a discount they've already calculated before the front door opens."
+        },
+        {
+          "h": "Why first impressions are so hard to undo"
+        },
+        {
+          "p": "A buyer who arrives already skeptical spends the tour hunting for confirmation. A buyer who arrives impressed spends it imagining their furniture in the rooms. Same house, completely different showing — decided at the curb."
+        },
+        {
+          "p": "That's also why online photos matter as much as the drive-by. For most buyers, the photos are the first impression, and the drive-by only confirms it."
+        },
+        {
+          "h": "The honest cost-benefit"
+        },
+        {
+          "p": "Curb appeal is the highest return per dollar in the entire selling process, precisely because it's cheap and everybody underinvests in it. Big renovations are a gamble against your neighborhood's comparable sales. A clean, sharp exterior is close to a sure thing."
+        },
+        {
+          "p": "Knowing which improvements a buyer in your specific price range will actually pay for — and which ones you'd be funding out of your own proceeds — is one of the things our flat-fee guidance at HomePilot is built to sort out before you spend anything."
+        },
+        {
+          "p": "Before you list, go stand in the street. Ten minutes there will tell you more than a week of second-guessing your list price."
+        }
       ]
     },
     {
-      "slug": "buyers-find-you-first",
-      "title": "Buyers find your house. Their agent just confirms it.",
-      "kicker": "How buyers behave",
-      "excerpt": "The old model had agents delivering listings to buyers. It runs the other way now — and that changes what you should pay for.",
-      "readTime": "4 min read",
-      "date": "2026-08-07",
+      "slug": "which-home-upgrades-actually-pay-you-back",
+      "title": "Which Home Upgrades Actually Pay You Back?",
+      "kicker": "Upgrades",
+      "excerpt": "Spending fifty thousand on the backyard won't add fifty thousand to your sale price. Three upgrades reliably do return their cost.",
+      "date": "2026-08-26",
       "image": "",
-      "imageNote": "Someone on a couch scrolling listings on a phone",
       "accent": "#BC5730",
-      "metaDescription": "Buyers now find listings themselves and send them to their agent. What that reversal means for how home sellers should think about commission.",
+      "metaDescription": "Which home improvements increase resale value before selling: kitchen, flooring, and roof, plus which upgrades don't return their cost for FSBO sellers.",
       "body": [
-        {"p": "Thirty years ago the agent held the inventory. Buyers came in, sat down, and were shown a book of what was available. Access was the product, and it was worth paying for."},
-        {"p": "That's inverted. Buyers now scroll listings at night, save the ones they like, and text their agent: can we see this Saturday? The agent's role starts after the house has already been found."},
-        {"h": "Why this matters to a seller"},
-        {"p": "If buyers discover your home themselves through the portals, then the thing that gets your house seen is being in the feed with a good first photo and a defensible price. Not an agent's network. Not a broker's buyer list — a list which, if you ask, usually turns out to be the same portal data everyone else has."},
-        {"p": "So the commission conversation shifts. You're not buying access to buyers. Access is a syndication feed and it's included. You're buying help deciding what to do when the offers arrive."},
-        {"h": "What buyer's agents still genuinely do"},
-        {"p": "Plenty, and it's worth understanding because you'll be negotiating with one. They tour homes, sanity-check the price, structure the offer, manage inspection and financing timelines, and talk their client off a ledge twice a month. That's real work — it's just downstream of discovery, not upstream."},
-        {"pull": "Access used to be the product. Now access is free and judgment is the product."},
-        {"h": "What that means practically"},
-        {"p": "Get the listing into the MLS so the feed picks it up. Spend on photography, because the first image is the entire discovery step. Price inside the band buyers search. Then be genuinely ready for the part that starts when an offer lands — because that's where the money is actually won or lost, and it has nothing to do with marketing."},
-        {"h": "One caveat"},
-        {"p": "Buyer-agent compensation is negotiable and varies by market and by deal. Whether you offer anything, and how much, is a strategy decision with real consequences for showing volume. It deserves a deliberate conversation, not a default."}
+        {
+          "p": "Every seller eventually asks some version of this: if I put money into the house before listing, will I get it back?"
+        },
+        {
+          "p": "Sometimes. The trap is assuming that dollars spent become dollars earned. They don't, because your home's market value is set by what comparable homes in your area recently sold for — not by your receipts. Spend fifty thousand on a backyard in a neighborhood where homes sell for two hundred, and you've bought yourself a very nice backyard. You have not bought fifty thousand dollars of value."
+        },
+        {
+          "h": "The big three"
+        },
+        {
+          "p": "Three upgrades tend to return their cost, because appraisers apply them directly to value and because they're the items that intimidate buyers most — first-time buyers especially."
+        },
+        {
+          "list": [
+            "Roof. If it's at the end of its life, replacing it usually returns roughly what it costs, sometimes more. A buyer looking at a failing roof is calculating a much bigger number than the actual quote.",
+            "Flooring. Worth replacing when the buyer would obviously have to replace it immediately anyway. Choose mid-tier and appropriate to the price range — new cheap carpet isn't valuable, and premium hardwood in a modest home won't return.",
+            "Kitchen. The room buyers use to judge the entire house. Done well and matched to the neighborhood, it commands top dollar. Done cheaply, it can cost you a quality buyer."
+          ]
+        },
+        {
+          "p": "A real example from our own files: a three-bed, two-bath home worth about $180,000 in dated condition, with destroyed carpet and a roof past its life. Comparable updated homes nearby were selling above $200,000. The seller spent $12,000 on vinyl plank flooring and a new roof. It sold at $205,000 — roughly $13,000 in additional net profit for a 35-day commitment."
+        },
+        {
+          "p": "The reason that worked wasn't the spending. It was matching the upgrade to what comparable sales in that specific neighborhood and price range would actually support."
+        },
+        {
+          "pull": "The question isn't \"will this improve the house?\" It's \"will a buyer in my price range pay more because of it?\""
+        },
+        {
+          "h": "The cheap wins people skip"
+        },
+        {
+          "p": "Hardware is the most underrated money in this whole list. Old cabinet handles make new cabinets look dated. Towel bars, door handles, tired light fixtures — replacing these is a small price next to a buyer walking in and mentally adding it to their own to-do list."
+        },
+        {
+          "p": "Appliances matter more than sellers expect, too. Buyers want them included, and surveys have found most who couldn't get the appliances they wanted would have paid roughly two thousand dollars more to have them. We once watched a $625,000 sale nearly collapse over a $1,200 washer and dryer set."
+        },
+        {
+          "h": "The one nobody wants to hear about"
+        },
+        {
+          "p": "Mechanical systems — electrical, plumbing, gas lines, heating and air. Nothing here is fun to spend on and none of it photographs well. But faulty wiring doesn't feel safe, old plumbing suggests mold, and a failing HVAC worries less experienced buyers. When these are outdated, appeal drops and the sale price follows."
+        },
+        {
+          "h": "How to decide before you spend"
+        },
+        {
+          "p": "Pull recent comparable sales in your neighborhood, look at what the updated ones actually have, and price the gap. If closing that gap costs less than the difference, it's likely worth doing. If it doesn't, offering the buyer a credit is often the smarter play — it's transparent, it solves their problem, and it costs you less than the renovation."
+        },
+        {
+          "p": "Sorting a wise upgrade from an expensive one takes real comparable-sales data rather than instinct, and it's a decision worth getting right before the money leaves your account. It's one of the first things we work through with sellers at HomePilot, at a flat fee rather than a percentage of what your improvements help you earn."
+        }
+      ]
+    },
+    {
+      "slug": "can-zillow-tell-you-what-your-home-is-worth",
+      "title": "Can Zillow Actually Tell You What Your Home Is Worth?",
+      "kicker": "Pricing tools",
+      "excerpt": "The Zestimate is a starting point, not an answer — and knowing the difference is worth thousands.",
+      "date": "2026-08-22",
+      "image": "images/blog/craftsman-exterior.jpg",
+      "accent": "#E08A5F",
+      "metaDescription": "How accurate is a Zillow Zestimate for pricing your home? What automated home valuations miss, and how FSBO sellers should use them.",
+      "body": [
+        {
+          "p": "Almost every seller starts in the same place: they look up their address on Zillow, see a number, and feel something about it. Relief, usually, or indignation."
+        },
+        {
+          "p": "So let's answer the question honestly. A Zestimate is a useful reference point and a poor list price. It's an algorithm comparing properties in your area, and it has gotten better over the years. But it's working from public data, and it cannot see the things that actually determine what a buyer will pay."
+        },
+        {
+          "h": "What an automated valuation can't know"
+        },
+        {
+          "list": [
+            "The condition of your home right now — whether the kitchen is original or renovated last spring",
+            "Recent updates that never generated a permit or a public record",
+            "Time of year, and how that affects buyer demand in your market",
+            "Current inventory: how many similar homes are competing with yours this month",
+            "Anything specific about your lot, your view, your street, or the neighbor's yard"
+          ]
+        },
+        {
+          "p": "Two homes with identical square footage, bed count, and bath count can be worth meaningfully different amounts, and an algorithm working off records has no way to see the difference."
+        },
+        {
+          "h": "Use it as a sanity check, not a strategy"
+        },
+        {
+          "p": "Here's the practical way to treat it. If the Zestimate is wildly different from your own expectation, that's a signal worth investigating — one of you is missing something. If it's roughly in line with the comparable sales you've pulled yourself, that's mild confirmation."
+        },
+        {
+          "p": "What it should never be is the number on your sign, in either direction. Pricing above true market value because a website flattered you produces the same slow, expensive outcome as any other overpricing: showings without offers, weeks of silence, a price cut that signals weakness, and eventually an offer below where you could have started."
+        },
+        {
+          "pull": "An algorithm can tell you what homes like yours sold for. It can't tell you whether your home is like yours."
+        },
+        {
+          "h": "What actually produces a list price"
+        },
+        {
+          "p": "Three or four genuinely comparable closed sales within roughly a mile from the last ninety days. Closed, not listed — anyone can ask for a number, and only a closing tells you what somebody paid. Then honest adjustments for condition and updates, without the premium your own attachment wants to add."
+        },
+        {
+          "p": "Then look at how much inventory is competing with you. If there are eighteen similar homes for sale and three sell a month, that's six months of supply and your price has to respect it. Under three months, you have room to push."
+        },
+        {
+          "h": "The part that's hard to do alone"
+        },
+        {
+          "p": "None of this research is secret or unavailable to you. It's just genuinely difficult to apply to your own home, because you're the one person on earth who can't see it objectively. That's not a knock — it's true of everybody."
+        },
+        {
+          "p": "Bringing real market data and an outside read to your list price, without paying a commission for it, is the core of what our flat-fee guidance at HomePilot exists to do. The pricing decision is where the most money is won or lost in a for-sale-by-owner sale, and it happens before you ever meet a buyer."
+        },
+        {
+          "p": "Look up the Zestimate. Then go do the actual research, because the market prices your home whether or not you agree with it."
+        }
+      ]
+    },
+    {
+      "slug": "what-closing-costs-are-you-forgetting",
+      "title": "What Closing Costs Are You Forgetting to Budget For?",
+      "kicker": "Closing costs",
+      "excerpt": "A surprising number of sellers focus so hard on the sale price that they forget a chunk of it never reaches their account.",
+      "date": "2026-08-19",
+      "image": "",
+      "accent": "#2C2A28",
+      "metaDescription": "The closing costs home sellers forget to budget for: professional fees, prorated taxes, excise tax, and buyer-requested costs that reduce net proceeds.",
+      "body": [
+        {
+          "p": "You've picked a list price. Maybe you've even got an offer in hand. But before you start mentally spending your proceeds, there's a question worth asking: do you actually know what you'll walk away with after closing?"
+        },
+        {
+          "p": "A surprising number of home sellers — especially first-timers going the for-sale-by-owner route — focus so heavily on the sale price that they forget a chunk of it never makes it to their bank account. Understanding your real closing costs upfront isn't just good bookkeeping. It shapes how you price, how you negotiate, and what you can realistically put toward your next home."
+        },
+        {
+          "h": "The costs that quietly add up"
+        },
+        {
+          "p": "Here are the expenses sellers most often underestimate:"
+        },
+        {
+          "list": [
+            "Marketing and selling costs. Selling without a traditional agent means covering your own advertising, signage, and any listing fees.",
+            "Professional fees. Attorneys, closing agents, and other professionals charge for their time — money well spent, but it needs to be in your budget.",
+            "Excise or gains tax. Depending on your state and situation, a transfer or gains tax may apply.",
+            "Prorated expenses. Property taxes, HOA dues, and utilities are often prorated at closing, meaning you owe your share through the closing date.",
+            "Buyer-requested costs. Appraisals, inspections, and sometimes a portion of the buyer's own closing costs end up as line items the seller agrees to cover."
+          ]
+        },
+        {
+          "h": "The one that catches sellers off guard"
+        },
+        {
+          "p": "Here's a detail worth watching closely: some buyers' loan programs come with closing costs that get quietly framed as the seller's responsibility during negotiations. This typically runs around 3% of the purchase price — thousands of dollars that can catch an unprepared seller completely by surprise if it isn't spotted before an offer is accepted."
+        },
+        {
+          "p": "The fix is simple: read every offer line by line, and don't assume \"closing costs\" means the same thing to a buyer as it does to you."
+        },
+        {
+          "pull": "Run your actual net proceeds before you sign anything, so you know the real number rather than the headline number."
+        },
+        {
+          "h": "Do the math before you sign"
+        },
+        {
+          "p": "A good habit before accepting any offer is running your net proceeds — sale price, minus your loan payoff, minus every cost above. Plenty of free seller's net proceeds calculators exist online, and running your numbers through one takes a few minutes but can save you an unpleasant surprise at the closing table."
+        },
+        {
+          "p": "This is also exactly where a flat-fee real estate consultant earns their keep: catching the costs a first-time FSBO seller wouldn't think to look for, and making sure your accepted offer actually nets what you think it does. At HomePilot, this kind of behind-the-scenes review is part of how we help sellers keep more of their equity — without paying a full commission to get it."
+        },
+        {
+          "p": "It also helps to build a small buffer into your expectations from the start. Sellers who go in expecting a few thousand dollars in closing-related costs are far less rattled at the table than those who assumed the sale price and their payout were basically the same number."
+        },
+        {
+          "p": "Selling your own home can absolutely save you thousands. Just make sure the number you're celebrating is the one that actually lands in your account."
+        }
+      ]
+    },
+    {
+      "slug": "is-your-home-really-worth-what-you-think",
+      "title": "Is Your Home Really Worth What You Think It's Worth?",
+      "kicker": "Pricing",
+      "excerpt": "Every homeowner has a story about their house. Here's the hard truth: none of it matters to a buyer.",
+      "date": "2026-08-15",
+      "image": "images/blog/cottage-autumn.jpg",
+      "accent": "#E08A5F",
+      "metaDescription": "Why sentimental value leads to overpricing your home, how the overpricing spiral costs sellers money, and how to find your true market value.",
+      "body": [
+        {
+          "p": "Every homeowner has a story about their house. Maybe you've lived there twenty years. Maybe you just dropped ten thousand dollars on a backyard fountain, or repainted the living room the exact shade of green you always dreamed about. All of that matters to you — and it should. It's your home."
+        },
+        {
+          "p": "Here's the hard truth, though: none of it matters to a buyer."
+        },
+        {
+          "p": "This is one of the most common (and most expensive) home selling mistakes we see. A homeowner prices their house based on what it's worth to them — the memories, the upgrades, the years of care — instead of what similar homes are actually selling for nearby. The market doesn't pay for sentimental value. It pays for square footage, condition, location, and comparable sales."
+        },
+        {
+          "h": "The overpricing spiral"
+        },
+        {
+          "p": "When a home is priced too high, the same frustrating pattern tends to play out:"
+        },
+        {
+          "p": "The listing goes up. A handful of buyers come through. No offers materialize. Weeks pass. The price gets nudged down. A few more showings happen, still no real traction. Eventually the seller — now under time pressure — accepts an offer well below what the home could have earned if it had been priced accurately from day one."
+        },
+        {
+          "p": "We talk to sellers all the time who say some version of, \"We've been on the market for two months and we need to sell now — what do we do?\" By then, the best opportunity has usually already passed. Buyers notice a stale listing, and a stale listing signals a deal, not a discovery."
+        },
+        {
+          "h": "Priced right, buyers compete for you"
+        },
+        {
+          "p": "Here's the part that surprises a lot of first-time sellers: pricing at true market value doesn't mean leaving money on the table. It's often the opposite. When a home is priced fairly and buyers sense they're getting a good deal, they tend to move fast — and when more than one buyer wants the same house, they start competing for it. Multiple offers, sometimes above asking, are far more common on accurately priced homes than on homes priced hopefully."
+        },
+        {
+          "pull": "Overprice it, and you'll likely hear crickets. Price it right, and the market often rewards you."
+        },
+        {
+          "h": "So how do you find the real number?"
+        },
+        {
+          "p": "It comes down to research — the unglamorous part nobody loves, but there's no way around it. That means pulling recent, truly comparable sales in your neighborhood (not just what your neighbor says they sold for), accounting for condition and updates honestly, and resisting the urge to add a premium just because your home feels special to you."
+        },
+        {
+          "p": "A quick gut check: would you pay ten thousand dollars extra for a stranger's fountain? Probably not. Buyers won't either, no matter how much you love it."
+        },
+        {
+          "p": "This is exactly the kind of objective, comp-based pricing strategy that's easy to get wrong on your own emotions and hard to get right without real market data. At HomePilot, this is one of the things our flat-fee guidance is built around — giving FSBO sellers the same pricing discipline a top agent would bring, without paying a commission for it."
+        },
+        {
+          "p": "Before you put a number on the sign in your yard, take a step back from the memories and look at the data. Your future buyer — and your bottom line — will thank you."
+        }
       ]
     }
   ]

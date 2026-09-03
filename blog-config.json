@@ -1,0 +1,37 @@
+{
+  "_note": "A queued post with its own `image` keeps it. Posts with an empty image get a cover chosen from imageRotation, mixed with colored tiles. tileShare is the rough proportion of tiles; minGapBetweenTiles stops two tiles landing near each other.",
+  "tileShare": 0.28,
+  "minGapBetweenTiles": 3,
+  "tileAccents": [
+    "#E08A5F",
+    "#2C2A28",
+    "#6FA8DC",
+    "#BC5730"
+  ],
+  "imageRotation": [
+    "images/blog/agents-celebrating.jpg",
+    "images/blog/blue-front-porch.jpg",
+    "images/blog/bungalow-porch.jpg",
+    "images/blog/cottage-autumn.jpg",
+    "images/blog/couple-in-kitchen.jpg",
+    "images/blog/craftsman-exterior.jpg",
+    "images/blog/curb-appeal-street.jpg",
+    "images/blog/desk-coffee-notes.jpg",
+    "images/blog/family-moving-in.jpg",
+    "images/blog/handshake.jpg",
+    "images/blog/keys-handover.jpg",
+    "images/blog/keys-in-hand.jpg",
+    "images/blog/kitchen-island-dark.jpg",
+    "images/blog/laptop-phone-cafe.jpg",
+    "images/blog/modern-kitchen.jpg",
+    "images/blog/open-living-dining.jpg",
+    "images/blog/reviewing-plans.jpg",
+    "images/blog/signing-contract.jpg",
+    "images/blog/staged-bedroom-teal.jpg",
+    "images/blog/staged-bedroom.jpg",
+    "images/blog/staged-living-room.jpg",
+    "images/blog/typing-laptop.jpg",
+    "images/blog/white-kitchen.jpg",
+    "images/blog/writing-notes.jpg"
+  ]
+}
