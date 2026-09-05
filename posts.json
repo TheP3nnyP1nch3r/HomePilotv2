@@ -1,6 +1,77 @@
 {
   "posts": [
     {
+      "slug": "how-to-market-a-home-without-an-agent",
+      "title": "How Do You Market a Home Without a Real Estate Agent?",
+      "kicker": "Marketing",
+      "excerpt": "Most of what gets called marketing is a syndication feed. Here's what you actually control.",
+      "image": "images/blog/keys-in-hand.jpg",
+      "accent": "#2C2A28",
+      "metaDescription": "How to market a for-sale-by-owner home: listing exposure, photography, neighborhood outreach, and what actually drives buyer traffic without an agent.",
+      "body": [
+        {
+          "p": "This is usually the part that worries for-sale-by-owner sellers most. Without an agent, how does anyone find out your house exists?"
+        },
+        {
+          "p": "It's a fair question with a more reassuring answer than you'd expect. Most of the distribution is automatic once you're listed, and the parts that aren't automatic are the parts you can do yourself."
+        },
+        {
+          "h": "Distribution is mostly solved"
+        },
+        {
+          "p": "When a home is entered into the MLS, it flows out to the major search portals without anyone doing anything further. That feed is where the large majority of buyers will find you, and it's the same feed every listing rides — a full-commission listing doesn't get a better version of it."
+        },
+        {
+          "p": "Buyers today search on their own, save what they like, and send it to their agent to schedule. Being in the feed, with a strong first photo and a defensible price, is what gets you found."
+        },
+        {
+          "h": "Photography is the whole first impression"
+        },
+        {
+          "p": "If you spend money on one thing, spend it here. Your first photo decides whether anyone clicks on the other twenty, and everything else you do is downstream of that click."
+        },
+        {
+          "p": "Professional photos on a modest home usually cost a few hundred dollars and are the highest-return dollars in the entire process. Shoot in good light, declutter first, and lead with your strongest exterior or the kitchen."
+        },
+        {
+          "h": "Write the first two lines like they're the only ones"
+        },
+        {
+          "p": "Most buyers read the opening of your description and nothing else. Lead with what's genuinely distinctive — the updated kitchen, the lot size, the school, the new roof — not adjectives. \"Charming\" tells a buyer nothing. \"New roof and vinyl plank flooring in 2025\" tells them plenty."
+        },
+        {
+          "pull": "Free channels reach people who are buying. Paid channels mostly reach people who are scrolling."
+        },
+        {
+          "h": "The free marketing that outperforms the paid kind"
+        },
+        {
+          "list": [
+            "Your neighbors. A meaningful share of buyers already have a connection to the area, and your neighbors talk to those people constantly. Telling twenty of them beats any small ad budget.",
+            "Local community groups, where someone asks about homes coming up for sale most weeks. Free, targeted, and at the exact moment of intent.",
+            "Saved-search alerts. Everyone whose criteria match yours gets an email the day you go live — the highest-intent audience your listing will ever reach, which is why the first two weeks matter so much.",
+            "A clear, well-placed yard sign. Still works."
+          ]
+        },
+        {
+          "h": "Where to be careful"
+        },
+        {
+          "p": "Boosted social posts and printed brochures mostly produce the feeling that something is happening. They reach people who are not buying a house this quarter. Before spending, ask what specific buyer a given tactic reaches that the saved-search email doesn't."
+        },
+        {
+          "h": "What's actually worth paying for"
+        },
+        {
+          "p": "Not distribution — that's included. What's worth paying for is judgment: pricing inside the band buyers are searching, positioning the listing correctly, and handling the offer when it arrives. That's the thinking a flat fee buys you at HomePilot, without a percentage of your sale price attached to it."
+        },
+        {
+          "p": "Get the photos right, get into the feed, tell your neighbors. That's most of marketing a home in 2026."
+        }
+      ],
+      "date": "2026-09-05"
+    },
+    {
       "slug": "what-should-you-do-when-you-accept-an-offer",
       "title": "What Should You Do the Moment You Accept an Offer?",
       "kicker": "After the offer",
