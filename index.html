@@ -69,8 +69,9 @@ Cal.ns["15min"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#E08A5F"}},"hide
   @media (min-width:600px) { [data-call-rail] { grid-template-columns: repeat(2,1fr); } }
   @media (min-width:760px) { [data-call-out] { grid-template-columns: repeat(3,1fr); } }
   [data-call-split] { grid-template-columns: 1fr; }
-  [data-call-photo] { min-height: 240px; }
-  @media (min-width:860px) { [data-call-split] { grid-template-columns: 1.08fr .92fr; } [data-call-photo] { min-height: 0; } }
+  [data-call-photo] { min-height: 240px; max-height: 420px; }
+  [data-call-photo] img { object-position: center 28%; }
+  @media (min-width:860px) { [data-call-split] { grid-template-columns: 1.12fr .88fr; } [data-call-photo] { min-height: 0; max-height: none; } }
   [data-price-grid] { grid-template-columns: 1fr; }
   @media (min-width:760px) { [data-price-grid] { grid-template-columns: 1fr 1fr 1.22fr; align-items: center; } }
   [data-fit-grid] { grid-template-columns: 1fr; }
@@ -195,7 +196,7 @@ Cal.ns["15min"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#E08A5F"}},"hide
 <!-- HERO -->
 <section data-hero="" data-screen-label="Hero" style="min-height:94svh;display:flex;align-items:center;padding:132px 0 68px;position:relative;overflow:hidden;color:#fff">
   <div aria-hidden="true" style="position:absolute;inset:0;z-index:0">
-    <img src="images/slots/hero-house.jpg" alt="Drop a bright home exterior photo (fills the hero background)" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block" />
+    <img src="images/slots/hero-house.jpg" alt="A recently sold home" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block" />
   </div>
   <div aria-hidden="true" style="position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(24,21,18,.3) 0%,rgba(24,21,18,.42) 45%,rgba(20,17,15,.74) 100%)"></div>
   <div style="max-width:1120px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px);width:100%;position:relative;z-index:2">
@@ -203,10 +204,11 @@ Cal.ns["15min"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#E08A5F"}},"hide
       <span style="width:7px;height:7px;border-radius:50%;background:#E08A5F;display:inline-block;animation:hp-dot 2.6s ease-in-out infinite"></span>Flat-fee seller strategy
     </p>
     <h1 data-reveal="" data-d=".07s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);font-size:clamp(2.4rem,5.8vw,4.6rem);font-weight:700;line-height:1.05;letter-spacing:-.02em;color:#fff;margin-bottom:20px;max-width:16ch;text-wrap:balance">Sell your home. Keep the commission.</h1>
-    <p data-reveal="" data-d=".14s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);font-size:clamp(1.05rem,1.5vw,1.22rem);line-height:1.55;color:rgba(255,255,255,.96);text-shadow:0 1px 6px rgba(0,0,0,.35);max-width:32rem;margin-bottom:22px">A licensed broker-led team prices, negotiates, and closes your sale — for one flat fee, not a slice of your equity.</p>
+    <p data-reveal="" data-d=".14s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);font-size:clamp(1.05rem,1.5vw,1.22rem);line-height:1.55;color:rgba(255,255,255,.96);text-shadow:0 1px 6px rgba(0,0,0,.35);max-width:32rem;margin-bottom:22px">A licensed broker-led team prices, negotiates, and closes your sale for one flat fee, not a slice of your equity.</p>
     <p data-reveal="" data-d=".17s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);display:inline-flex;align-items:baseline;gap:10px;flex-wrap:wrap;font-family:'Quicksand',sans-serif;margin-bottom:28px">
-      <span style="font-weight:700;font-size:clamp(1.35rem,2.2vw,1.7rem);color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.4)">$1,994 flat</span>
-      <span style="font-size:.95rem;font-weight:600;color:rgba(255,255,255,.72);text-decoration:line-through;text-decoration-color:rgba(224,138,95,.9)">2.5–3% commission</span>
+      <span style="font-weight:700;font-size:clamp(1.35rem,2.2vw,1.7rem);color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.4)">$997 to start</span>
+      <span style="font-size:.95rem;font-weight:600;color:rgba(255,255,255,.9);text-shadow:0 1px 6px rgba(0,0,0,.4)">then $997 at closing</span>
+      <span style="font-size:.95rem;font-weight:600;color:rgba(255,255,255,.72);text-decoration:line-through;text-decoration-color:rgba(224,138,95,.9)">2.5&ndash;3% commission</span>
     </p>
     <div data-reveal="" data-d=".21s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);display:flex;flex-wrap:wrap;gap:12px;align-items:center">
       <button data-book-open="" data-shine="" style="display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:16px 30px;background:#E08A5F;color:#fff;border-radius:14px;font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.02rem;min-height:54px;box-shadow:0 10px 24px -8px rgba(224,138,95,.7);transition:box-shadow .2s,background .2s" style-hover="background:#D06E42;box-shadow:0 16px 30px -8px rgba(224,138,95,.8)">Book a Free 15-Minute Call
@@ -254,73 +256,34 @@ Cal.ns["15min"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#E08A5F"}},"hide
             </span>
             <span>$1M</span>
           </div>
+          <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:18px;flex-wrap:wrap">
+            <label for="hp-price-entry" style="font-size:.82rem;color:#8a857c">Or type your price</label>
+            <div style="display:flex;align-items:center;gap:6px;background:#fff;border:1.5px solid rgba(44,42,40,.14);border-radius:12px;padding:9px 14px;box-shadow:0 2px 8px -4px rgba(44,42,40,.3)">
+              <span style="font-family:'Quicksand',sans-serif;font-weight:700;color:#A79C8C">$</span>
+              <input id="hp-price-entry" data-calc-text="" type="text" inputmode="numeric" autocomplete="off" value="450,000" aria-label="Enter your home price" style="width:110px;border:none;outline:none;background:transparent;font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.05rem;color:#26231F">
+            </div>
+          </div>
         </div>
       </div>
 
       <div data-calc-countup="" style="margin-top:clamp(26px,3.2vw,34px);text-align:center;background:linear-gradient(135deg,#2F8560,#1F6B4A 52%,#14523A);border-radius:22px;padding:clamp(26px,3.4vw,36px);box-shadow:0 24px 50px -22px rgba(21,83,56,.6),inset 0 1px 0 rgba(255,255,255,.12);position:relative;overflow:hidden">
         <div aria-hidden="true" style="position:absolute;inset:0;background:radial-gradient(120% 130% at 82% -25%,rgba(255,255,255,.18),transparent 58%);pointer-events:none"></div>
-        <p style="position:relative;font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.75);margin-bottom:9px">That's yours to keep</p>
+        <p style="position:relative;font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.75);margin-bottom:9px">Your money stays in your pocket</p>
         <p data-calc-out="diff" style="position:relative;font-family:'Quicksand',sans-serif;font-weight:700;font-size:clamp(2.8rem,6.6vw,4rem);line-height:1;color:#fff;letter-spacing:-.012em">+$25,006</p>
-        <p style="position:relative;font-size:.9rem;color:rgba(255,255,255,.85);margin-top:12px">In your pocket at closing &mdash; not paid out in commission.</p>
+        <p style="position:relative;font-size:.9rem;color:rgba(255,255,255,.85);margin-top:12px">Not paid out in commission.</p>
       </div>
-      <p style="text-align:center;font-size:.7rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#A79C8C;margin-top:clamp(26px,3.2vw,34px)">Here's where that comes from</p>
-      <div style="padding:clamp(16px,2vw,20px) 0 clamp(22px,2.8vw,30px)">
-        <div style="margin-bottom:28px">
-          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:11px;gap:12px">
-            <span style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:clamp(.98rem,1.4vw,1.1rem);color:#26231F">Traditional agent</span>
-            <span style="font-size:.8rem;color:#A79C8C;white-space:nowrap">6% commission</span>
-          </div>
-          <div style="display:flex;height:56px;border-radius:14px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(44,42,40,.07)">
-            <div style="flex:94;background:#F1EADF;display:flex;align-items:center;padding-left:18px;min-width:0">
-              <span style="font-size:.68rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#B0a593;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">You keep</span>
-            </div>
-            <div style="flex:6;background:linear-gradient(180deg,#CE6A44,#BC5730);display:flex;align-items:center;justify-content:center;min-width:106px;padding-inline:8px">
-              <span data-calc-out="trad-fee" style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:.9rem;color:#fff;white-space:nowrap">&minus;$27,000</span>
-            </div>
-          </div>
-          <p style="font-size:.82rem;color:#8a857c;margin-top:10px">Take-home <span data-calc-out="trad-net" style="font-weight:700;color:#26231F">$423,000</span></p>
-        </div>
-
-        <div>
-          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:11px;gap:12px">
-            <span style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:clamp(.98rem,1.4vw,1.1rem);color:#26231F">HomePilot <span style="color:#3E7CB1">flat fee</span></span>
-            <span style="font-size:.8rem;color:#A79C8C;white-space:nowrap">$997 up front + $997 at closing</span>
-          </div>
-          <div style="display:flex;height:56px;border-radius:14px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(62,124,177,.18)">
-            <div style="flex:99;background:linear-gradient(90deg,#E7F1FA,#D5E6F4);display:flex;align-items:center;padding-left:18px;min-width:0">
-              <span style="font-size:.68rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#3E7CB1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">You keep</span>
-            </div>
-            <div style="flex:1;background:#3E7CB1;min-width:12px"></div>
-          </div>
-          <p style="font-size:.82rem;color:#8a857c;margin-top:10px">Take-home <span data-calc-out="hp-net" style="font-weight:700;color:#26231F">$448,006</span></p>
-        </div>
+      <div style="margin-top:clamp(18px,2.2vw,24px);text-align:center;background:linear-gradient(135deg,#C4553A,#A9422A 55%,#8E3320);border-radius:22px;padding:clamp(24px,3.2vw,34px);box-shadow:0 24px 50px -22px rgba(142,51,32,.55),inset 0 1px 0 rgba(255,255,255,.12);position:relative;overflow:hidden">
+        <div aria-hidden="true" style="position:absolute;inset:0;background:radial-gradient(120% 130% at 82% -25%,rgba(255,255,255,.16),transparent 58%);pointer-events:none"></div>
+        <p style="position:relative;font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.78);margin-bottom:9px">What you&rsquo;d pay an agent &mdash; 6% commission</p>
+        <p data-calc-out="trad-fee" style="position:relative;font-family:'Quicksand',sans-serif;font-weight:700;font-size:clamp(2.8rem,6.6vw,4rem);line-height:1;color:#fff;letter-spacing:-.012em">&minus;$27,000</p>
+        <p style="position:relative;font-size:.9rem;color:rgba(255,255,255,.85);margin-top:12px">Taken out of your proceeds at closing. Your take-home would be <span data-calc-out="trad-net" style="font-weight:700;color:#fff">$423,000</span> instead of <span data-calc-out="hp-net" style="font-weight:700;color:#fff">$448,006</span>.</p>
       </div>
-
 
       <div style="text-align:center;margin-top:clamp(22px,2.8vw,30px)">
         <button data-book-open="" data-shine="" style="display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:16px 30px;background:#E08A5F;color:#fff;border-radius:14px;font-family:'Quicksand',sans-serif;font-weight:700;font-size:1rem;min-height:54px;box-shadow:0 14px 30px -10px rgba(224,138,95,.6);transition:box-shadow .2s,background .2s" style-hover="background:#D06E42;box-shadow:0 18px 34px -10px rgba(224,138,95,.75)">Book the Free Call to Lock In My Number
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:16px;height:16px"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
         </button>
       </div>
-    </div>
-
-    <div data-reveal="" data-d=".16s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);max-width:720px;margin:clamp(46px,6vw,66px) auto 0">
-      <p style="text-align:center;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#A79C8C;margin-bottom:28px">What it costs you, to scale</p>
-      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:15px">
-        <div style="text-align:left">
-          <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.06rem;color:#26231F;line-height:1.2">HomePilot</p>
-          <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:clamp(1.35rem,2.3vw,1.7rem);color:#C2703F;line-height:1.1">$1,994</p>
-        </div>
-        <div style="text-align:right">
-          <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.06rem;color:#26231F;line-height:1.2">Traditional agent</p>
-          <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:clamp(1.35rem,2.3vw,1.7rem);color:#A79C8C;line-height:1.1">~$27,000</p>
-        </div>
-      </div>
-      <div style="position:relative;height:10px;border-radius:100px;background:linear-gradient(90deg,#E08A5F 0%,#E08A5F 7%,rgba(44,42,40,.1) 7%,rgba(44,42,40,.1) 60%,rgba(188,87,48,.4) 100%);box-shadow:inset 0 0 0 1px rgba(44,42,40,.05)">
-        <span style="position:absolute;left:7%;top:50%;transform:translate(-50%,-50%);width:40px;height:40px;border-radius:50%;background:#fff;box-shadow:0 0 0 4px rgba(224,138,95,.18),0 7px 16px -5px rgba(44,42,40,.4);display:flex;align-items:center;justify-content:center"><img src="HomePilot-icon.svg" alt="HomePilot" style="width:25px;height:25px;display:block"></span>
-        <span style="position:absolute;right:0;top:50%;transform:translate(50%,-50%);width:16px;height:16px;border-radius:50%;background:#BC5730;box-shadow:0 0 0 5px rgba(188,87,48,.18),0 4px 10px rgba(44,42,40,.28)"></span>
-      </div>
-      <p style="text-align:center;font-size:.88rem;color:#6B655C;margin-top:24px;line-height:1.55;text-wrap:pretty">Selling solo is free &mdash; until one mispriced week on the market costs more than either option. HomePilot is the expert middle: broker-level strategy for a rounding error next to a commission.</p>
     </div>
 
     <p style="font-size:.75rem;color:#A79C8C;text-align:center;max-width:720px;margin:clamp(32px,4vw,46px) auto 0;line-height:1.6">*Illustrative estimate at a 6% total commission. Commissions are negotiable and not set by law; savings vary with your sale price, market, compensation choices, and closing costs. HomePilot charges no listing commission.</p>
@@ -368,45 +331,49 @@ Cal.ns["15min"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#E08A5F"}},"hide
   </div>
 </section>
 
-<!-- SELLER SYSTEM -->
-<section id="system" data-screen-label="Seller System" style="padding-block:clamp(60px,8vw,110px);background:#2C2A28;color:rgba(255,255,255,.78);overflow:hidden;position:relative">
-  <svg viewBox="0 0 100 100" aria-hidden="true" style="position:absolute;top:-8%;right:-4%;width:min(28vw,320px);opacity:.05;transform:rotate(12deg);pointer-events:none"><path d="M 16 62 A 37 37 0 1 1 84 62" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"></path><path d="M50 30 L66 72 L50 61 L34 72 Z" fill="#fff"></path><path d="M50 78 L57 90 L43 90 Z" fill="#fff"></path></svg>
-  <div style="max-width:1120px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px);position:relative">
-    <div data-reveal="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);text-align:center;max-width:660px;margin:0 auto 44px">
-      <span style="display:inline-flex;align-items:center;gap:8px;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#E08A5F;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);padding:7px 14px;border-radius:100px;margin-bottom:16px"><span style="width:6px;height:6px;border-radius:50%;background:#E08A5F"></span>The HomePilot Seller System&trade;</span>
-      <h2 style="font-size:clamp(2rem,3.8vw,3rem);font-weight:700;color:#fff;letter-spacing:-.02em;line-height:1.08;margin:12px 0 12px">Six decisions decide your price.</h2>
-      <p style="font-size:1rem;color:rgba(255,255,255,.6)">We cover every one. Tap a card.</p>
+<!-- ALREADY HAVE AN AGENT -->
+<section id="agent" data-screen-label="Already have an agent" style="padding-block:clamp(60px,8vw,110px);background:linear-gradient(170deg,#FFFDFA 0%,#FBF2E8 42%,#F6E7D8 100%);color:#6B655C;overflow:hidden;position:relative">
+  <div aria-hidden="true" style="position:absolute;inset:0;background-image:radial-gradient(rgba(44,42,40,.05) 1px,transparent 1px);background-size:26px 26px;opacity:.7;pointer-events:none"></div>
+  <svg viewBox="0 0 100 100" aria-hidden="true" style="position:absolute;bottom:-12%;left:-4%;width:min(26vw,300px);opacity:.07;transform:rotate(-10deg);pointer-events:none"><path d="M 16 62 A 37 37 0 1 1 84 62" fill="none" stroke="#C2703F" stroke-width="9" stroke-linecap="round"></path><path d="M50 30 L66 72 L50 61 L34 72 Z" fill="#C2703F"></path></svg>
+  <div style="max-width:1000px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px);position:relative">
+    <div data-reveal="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);text-align:center;max-width:680px;margin:0 auto clamp(36px,4.5vw,52px)">
+      <h2 style="font-size:clamp(2.6rem,6.4vw,4.6rem);font-weight:700;color:#26231F;letter-spacing:-.03em;line-height:1;text-wrap:balance">Already working with an agent?</h2>
+      <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:clamp(1.8rem,4.2vw,3rem);color:#C2703F;letter-spacing:-.02em;line-height:1.05;margin-top:14px">Not a problem.</p>
+      <p style="font-size:clamp(1.05rem,1.6vw,1.28rem);color:#5F594F;margin-top:20px;line-height:1.5;text-wrap:pretty">A signed agreement does not mean you stop asking questions. Get a second opinion. Free, private, and no pressure to switch.</p>
     </div>
-    <div data-system-grid="" style="display:grid;gap:14px;max-width:1000px;margin:0 auto">
-      <sc-for list="{{ pillars }}" as="p" hint-placeholder-count="6">
-        <div data-pillar="" role="button" tabindex="0" aria-expanded="false" style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:22px 22px;cursor:pointer;transition:background .3s,border-color .3s">
-          <div style="display:flex;align-items:center;gap:14px">
-            <svg viewBox="0 0 24 24" fill="none" stroke="#6FA8DC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:22px;height:22px;flex-shrink:0"><path d="{{ p.icon }}"></path></svg>
-            <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.1rem;color:#fff;flex:1">{{ p.title }}</p>
-            <svg data-pillar-plus="" viewBox="0 0 24 24" fill="none" stroke="#E08A5F" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" style="width:18px;height:18px;flex-shrink:0;transition:transform .35s cubic-bezier(.22,1,.36,1)"><path d="M12 5v14M5 12h14"></path></svg>
-          </div>
-          <div data-pillar-body="" style="overflow:hidden;max-height:0;opacity:0;transition:max-height .45s cubic-bezier(.22,1,.36,1),opacity .35s">
-            <p style="font-size:.92rem;color:rgba(255,255,255,.66);padding-top:12px">{{ p.text }}</p>
-          </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:clamp(14px,2vw,20px)">
+      <article data-reveal="" data-lift="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);background:#fff;border-radius:20px;padding:clamp(22px,2.8vw,30px);box-shadow:0 20px 44px -28px rgba(44,42,40,.45),inset 0 0 0 1px rgba(44,42,40,.06)">
+        <div style="width:42px;height:42px;border-radius:12px;background:#FBEAE0;display:flex;align-items:center;justify-content:center;margin-bottom:18px">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#C2703F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:20px;height:20px"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
         </div>
-      </sc-for>
+        <h3 style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.14rem;color:#26231F;margin-bottom:9px;line-height:1.25">Get a clear second opinion</h3>
+        <p style="font-size:.92rem;color:#5F594F;line-height:1.55;text-wrap:pretty">Bring the strategy, recent activity, an offer, or the decision keeping you up at night. We'll help you understand whether the current approach makes sense, where risk may be hiding, and which questions are worth asking next.</p>
+      </article>
+
+      <article data-reveal="" data-d=".08s" data-lift="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);background:#fff;border-radius:20px;padding:clamp(22px,2.8vw,30px);box-shadow:0 20px 44px -28px rgba(44,42,40,.45),inset 0 0 0 1px rgba(44,42,40,.06)">
+        <div style="width:42px;height:42px;border-radius:12px;background:#E6EFF8;display:flex;align-items:center;justify-content:center;margin-bottom:18px">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#3E7CB1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:20px;height:20px"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        </div>
+        <h3 style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.14rem;color:#26231F;margin-bottom:9px;line-height:1.25">Strengthen the plan you already have</h3>
+        <p style="font-size:.92rem;color:#5F594F;line-height:1.55;text-wrap:pretty">You may not need to replace anyone. HomePilot can give you an additional strategy perspective on pricing, market response, offers, negotiations, and seller decisions while respecting the representation agreement already in place.</p>
+      </article>
+
+      <article data-reveal="" data-d=".16s" data-lift="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);background:#fff;border-radius:20px;padding:clamp(22px,2.8vw,30px);box-shadow:0 20px 44px -28px rgba(44,42,40,.45),inset 0 0 0 1px rgba(44,42,40,.06)">
+        <div style="width:42px;height:42px;border-radius:12px;background:#DFF0E5;display:flex;align-items:center;justify-content:center;margin-bottom:18px">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#1F6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:20px;height:20px"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6"></path><path d="M9.5 15.5l5-5M14.5 15.5l-5-5"></path></svg>
+        </div>
+        <h3 style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.14rem;color:#26231F;margin-bottom:9px;line-height:1.25">Understand your options before making a change</h3>
+        <p style="font-size:.92rem;color:#5F594F;line-height:1.55;text-wrap:pretty">When the relationship is not working, start with clarity instead of conflict. We'll help you understand the agreement, identify the practical questions to ask, and think through the available paths before you make a decision. We will not pressure you to leave or interfere with an active agency relationship.</p>
+      </article>
     </div>
-    <div data-reveal="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);margin:56px auto 0;max-width:900px">
-      <div data-steps-grid="" style="display:grid;gap:24px">
-        <sc-for list="{{ steps }}" as="s" hint-placeholder-count="3">
-          <div data-step="" data-cd="{{ s.cd }}" style="text-align:center;padding:0 8px">
-            <div style="width:78px;height:78px;margin:0 auto 16px;position:relative">
-              <svg viewBox="0 0 100 100" style="width:100%;height:100%;transform:rotate(-90deg)">
-                <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="7"></circle>
-                <circle data-ring="" cx="50" cy="50" r="44" fill="none" stroke="#6FA8DC" stroke-width="7" stroke-linecap="round" stroke-dasharray="276" stroke-dashoffset="276"></circle>
-              </svg>
-              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="position:absolute;inset:0;margin:auto;width:30px;height:30px"><path data-mark="" d="M20 6L9 17l-5-5" stroke-dasharray="30" stroke-dashoffset="30"></path></svg>
-            </div>
-            <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.15rem;color:#fff;margin-bottom:6px">{{ s.title }}</p>
-            <p style="font-size:.92rem;color:rgba(255,255,255,.66)">{{ s.text }}</p>
-          </div>
-        </sc-for>
-      </div>
+
+    <div data-reveal="" data-d=".24s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);text-align:center;margin-top:clamp(32px,4vw,44px)">
+      <button data-book-open="" data-shine="" style="display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:16px 30px;background:#E08A5F;color:#fff;border-radius:14px;font-family:'Quicksand',sans-serif;font-weight:700;font-size:1rem;min-height:54px;box-shadow:0 14px 30px -10px rgba(224,138,95,.55);transition:background .2s,box-shadow .2s" style-hover="background:#D06E42;box-shadow:0 18px 34px -10px rgba(224,138,95,.7)">Talk Through My Situation
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:16px;height:16px"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+      </button>
+      <p style="font-size:.86rem;color:#5F594F;margin-top:14px;line-height:1.55;max-width:560px;margin-inline:auto;text-wrap:pretty">Free 15-minute call. No pressure, and no assumption that changing agents is the right answer.</p>
+      <p style="font-size:.8rem;color:#8a857c;margin-top:12px;line-height:1.55;max-width:560px;margin-inline:auto;text-wrap:pretty">HomePilot does not interfere with an active agency relationship. Any decision to remain, request changes, seek a release, or pursue a different path belongs to the seller. Depending on the issue, we may recommend speaking directly with the current agent, managing broker, or an attorney.</p>
     </div>
   </div>
 </section>
@@ -418,7 +385,7 @@ Cal.ns["15min"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#E08A5F"}},"hide
     <div data-reveal="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);max-width:640px;margin-bottom:40px">
       <h2 style="font-size:clamp(2rem,3.8vw,3rem);font-weight:700;color:#2C2A28;letter-spacing:-.02em;line-height:1.08">Real decisions. Real results.</h2>
     </div>
-    <div data-case-grid="" style="display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:14px;margin:0 -4px;padding-inline:4px">
+    <div data-case-grid="" style="display:flex;align-items:flex-start;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:14px;margin:0 -4px;padding-inline:4px">
       <article data-reveal="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);background:#fff;border-radius:22px;padding:clamp(24px,3vw,32px);box-shadow:0 20px 44px -26px rgba(44,42,40,.4);border:1px solid rgba(44,42,40,.06);position:relative;flex:0 0 min(420px,86vw);scroll-snap-align:start" data-lift="">
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
           <div style="width:46px;height:46px;border-radius:50%;background:#EAF2FA;color:#3E7CB1;display:flex;align-items:center;justify-content:center;font-family:'Quicksand',sans-serif;font-size:.9rem;font-weight:700;flex-shrink:0">01</div>
@@ -477,31 +444,57 @@ Cal.ns["15min"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#E08A5F"}},"hide
           <p style="font-size:.94rem;color:#6B655C;padding:10px 0 4px">The inspection came back long and the buyer asked for a large credit. We separated real defects from routine wear and countered with a scoped credit tied only to legitimate items.</p>
         </details>
       </article>
-      <article data-reveal="" data-d=".16s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);background:#fff;border-radius:22px;padding:clamp(24px,3vw,32px);box-shadow:0 20px 44px -26px rgba(44,42,40,.4);border:1px dashed rgba(44,42,40,.16);position:relative;flex:0 0 min(420px,86vw);scroll-snap-align:start" data-lift="">
+      <article data-reveal="" data-d=".16s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);background:#fff;border-radius:22px;padding:clamp(24px,3vw,32px);box-shadow:0 20px 44px -26px rgba(44,42,40,.4);border:1px solid rgba(44,42,40,.06);position:relative;flex:0 0 min(420px,86vw);scroll-snap-align:start" data-lift="">
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
-          <div style="width:46px;height:46px;border-radius:50%;background:#F4EEE4;color:#A79C8C;display:flex;align-items:center;justify-content:center;font-family:'Quicksand',sans-serif;font-size:.9rem;font-weight:700;flex-shrink:0">03</div>
-          <div><p style="font-family:'Quicksand',sans-serif;font-weight:700;color:#2C2A28">Case study coming soon</p><p style="font-size:.82rem;color:#8a857c">Details to be added</p></div>
+          <div style="width:46px;height:46px;border-radius:50%;background:#EAF2FA;color:#3E7CB1;display:flex;align-items:center;justify-content:center;font-family:'Quicksand',sans-serif;font-size:.9rem;font-weight:700;flex-shrink:0">03</div>
+          <div><p style="font-family:'Quicksand',sans-serif;font-weight:700;color:#2C2A28">Buying a home they&rsquo;d never stood in</p><p style="font-size:.82rem;color:#8a857c">Out-of-state buyer &middot; relocation</p></div>
         </div>
         <div style="position:relative;border-radius:14px;overflow:hidden;margin-bottom:18px;background:#F4EEE4;aspect-ratio:16/8">
-          <div aria-hidden="true" style="width:100%;height:100%;background:#F4EEE4"></div>
+          <div aria-hidden="true" style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:repeating-linear-gradient(135deg,#F4EEE4,#F4EEE4 12px,#EFE7DA 12px,#EFE7DA 24px);color:#A79C8C">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" style="width:24px;height:24px"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+            <span style="font-size:.72rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase">Photo coming</span>
+          </div>
         </div>
-        <div style="background:#F4EEE4;border-radius:14px;padding:16px 18px">
-          <p style="font-size:.82rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#A79C8C;margin-bottom:4px">Result</p>
-          <p style="font-size:1.02rem;color:#8a857c;font-weight:600">Outcome details coming soon.</p>
+        <div style="background:#F4EEE4;border-radius:14px;padding:16px 18px;margin-bottom:14px">
+          <p style="font-size:.82rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#D06E42;margin-bottom:4px">Result</p>
+          <p style="font-size:1.02rem;color:#2C2A28;font-weight:600">Closed remotely, with the problem houses ruled out before they ever flew in.</p>
         </div>
+        <blockquote style="border-left:3px solid #5FD9A6;padding:2px 0 2px 14px;margin-bottom:14px">
+          <p style="font-size:.94rem;color:#4A453E;line-height:1.55;font-style:italic">&ldquo;HomePilot always showed us the house through a different lens &mdash; and never once pushed. They became more of a friend than a business partner.&rdquo;</p>
+          <p style="font-size:.78rem;color:#8a857c;margin-top:7px">&mdash; Client relocating from Wisconsin</p>
+        </blockquote>
+        <details>
+          <summary style="display:flex;align-items:center;gap:8px;font-family:'Quicksand',sans-serif;font-weight:700;font-size:.9rem;color:#D06E42;padding:4px 0">How we got there
+            <svg data-faq-chevron="" viewBox="0 0 24 24" fill="none" stroke="#E08A5F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:16px;height:16px;transition:transform .3s"><path d="M6 9l6 6 6-6"></path></svg>
+          </summary>
+          <p style="font-size:.94rem;color:#6B655C;padding:10px 0 4px">They were shopping from another state and ready to trust listing photos. We walked every house on FaceTime instead &mdash; slow, room by room, pointing out the roof line, the grading, the things a wide-angle lens hides. Two homes came off the list that way. The one they bought held up after close.</p>
+        </details>
       </article>
-      <article data-reveal="" data-d=".22s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);background:#fff;border-radius:22px;padding:clamp(24px,3vw,32px);box-shadow:0 20px 44px -26px rgba(44,42,40,.4);border:1px dashed rgba(44,42,40,.16);position:relative;flex:0 0 min(420px,86vw);scroll-snap-align:start" data-lift="">
+      <article data-reveal="" data-d=".22s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);background:#fff;border-radius:22px;padding:clamp(24px,3vw,32px);box-shadow:0 20px 44px -26px rgba(44,42,40,.4);border:1px solid rgba(44,42,40,.06);position:relative;flex:0 0 min(420px,86vw);scroll-snap-align:start" data-lift="">
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
-          <div style="width:46px;height:46px;border-radius:50%;background:#F4EEE4;color:#A79C8C;display:flex;align-items:center;justify-content:center;font-family:'Quicksand',sans-serif;font-size:.9rem;font-weight:700;flex-shrink:0">04</div>
-          <div><p style="font-family:'Quicksand',sans-serif;font-weight:700;color:#2C2A28">Case study coming soon</p><p style="font-size:.82rem;color:#8a857c">Details to be added</p></div>
+          <div style="width:46px;height:46px;border-radius:50%;background:#EAF2FA;color:#3E7CB1;display:flex;align-items:center;justify-content:center;font-family:'Quicksand',sans-serif;font-size:.9rem;font-weight:700;flex-shrink:0">04</div>
+          <div><p style="font-family:'Quicksand',sans-serif;font-weight:700;color:#2C2A28">A family home of 60 years, heirs in three states</p><p style="font-size:.82rem;color:#8a857c">Estate sale &middot; sellers in WA, FL &amp; KY</p></div>
         </div>
         <div style="position:relative;border-radius:14px;overflow:hidden;margin-bottom:18px;background:#F4EEE4;aspect-ratio:16/8">
-          <div aria-hidden="true" style="width:100%;height:100%;background:#F4EEE4"></div>
+          <div aria-hidden="true" style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:repeating-linear-gradient(135deg,#F4EEE4,#F4EEE4 12px,#EFE7DA 12px,#EFE7DA 24px);color:#A79C8C">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" style="width:24px;height:24px"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+            <span style="font-size:.72rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase">Photo coming</span>
+          </div>
         </div>
-        <div style="background:#F4EEE4;border-radius:14px;padding:16px 18px">
-          <p style="font-size:.82rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#A79C8C;margin-bottom:4px">Result</p>
-          <p style="font-size:1.02rem;color:#8a857c;font-weight:600">Outcome details coming soon.</p>
+        <div style="background:#F4EEE4;border-radius:14px;padding:16px 18px;margin-bottom:14px">
+          <p style="font-size:.82rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#D06E42;margin-bottom:4px">Result</p>
+          <p style="font-size:1.02rem;color:#2C2A28;font-weight:600">Sold with every heir aligned and both sides satisfied on terms.</p>
         </div>
+        <blockquote style="border-left:3px solid #5FD9A6;padding:2px 0 2px 14px;margin-bottom:14px">
+          <p style="font-size:.94rem;color:#4A453E;line-height:1.55;font-style:italic">&ldquo;HomePilot does what they say they are going to do &mdash; which seems to have become rare in our culture. Integrity, and can be trusted.&rdquo;</p>
+          <p style="font-size:.78rem;color:#8a857c;margin-top:7px">&mdash; Seller, family estate sale</p>
+        </blockquote>
+        <details>
+          <summary style="display:flex;align-items:center;gap:8px;font-family:'Quicksand',sans-serif;font-weight:700;font-size:.9rem;color:#D06E42;padding:4px 0">How we got there
+            <svg data-faq-chevron="" viewBox="0 0 24 24" fill="none" stroke="#E08A5F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:16px;height:16px;transition:transform .3s"><path d="M6 9l6 6 6-6"></path></svg>
+          </summary>
+          <p style="font-size:.94rem;color:#6B655C;padding:10px 0 4px">One property, three sets of decision-makers in three time zones, and six decades of belongings inside it. We ran a single decision log everyone could see, sequenced the clean-out before photos, and negotiated terms &mdash; not just price &mdash; so the outcome worked for buyer and family alike.</p>
+        </details>
       </article>
     </div>
     <p style="font-size:.78rem;color:#8a857c;margin-top:20px">Details generalized for privacy. Results vary. Swipe or scroll for more &rarr;</p>
@@ -510,7 +503,7 @@ Cal.ns["15min"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#E08A5F"}},"hide
 </sc-if>
 
 <!-- FLIGHTPLAN FAN -->
-<section data-screen-label="Seller FlightPlan" style="padding-block:clamp(56px,7vw,100px);background:#5C564D;overflow:hidden;position:relative">
+<section data-screen-label="Seller FlightPlan" style="padding-block:clamp(56px,7vw,100px);background:linear-gradient(165deg,#356D9C 0%,#274F73 55%,#1D3D5A 100%);overflow:hidden;position:relative">
   <svg data-trail="" aria-hidden="true" viewBox="0 0 820 120" preserveAspectRatio="xMidYMid meet" style="position:absolute;top:clamp(8px,2.4vw,26px);left:50%;transform:translateX(-50%);width:min(680px,86%);height:120px;opacity:.6;pointer-events:none">
     <path d="M18 96 Q 210 16 420 52 T 800 26" fill="none" stroke="#E9A57E" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="0.1 17"></path>
     <g transform="translate(786,14) rotate(-15)"><path d="M32 13 L2 2 L10 13 L2 24 Z" fill="#FBEEE6"></path></g>
@@ -564,8 +557,8 @@ Cal.ns["15min"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#E08A5F"}},"hide
       <div data-lift="" style="order:3;background:#4E90C8;color:#fff;border-radius:22px;padding:34px 26px;display:flex;flex-direction:column;position:relative;box-shadow:0 30px 60px -22px rgba(56,110,160,.55);transform:translateY(0)">
         <span style="position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:#E08A5F;color:#fff;font-size:.68rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:6px 14px;border-radius:100px;white-space:nowrap">Recommended</span>
         <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.2rem;color:#fff">Seller FlightPlan</p>
-        <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:2.4rem;color:#fff;margin:8px 0 6px;line-height:1">$1,994</p>
-        <p style="font-size:.9rem;font-weight:600;color:#fff;margin-bottom:7px">$997 up front, $997 at closing.</p>
+        <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:2.4rem;color:#fff;margin:8px 0 6px;line-height:1">$997</p>
+        <p style="font-size:.9rem;font-weight:600;color:#fff;margin-bottom:7px">to start, then $997 at closing.</p>
         <p style="font-size:.8rem;font-weight:600;color:#fff;background:rgba(255,255,255,.16);border-radius:10px;padding:9px 11px;margin-top:4px;margin-bottom:9px;display:flex;align-items:center;gap:7px;line-height:1.3;white-space:nowrap;overflow:hidden"><span style="color:rgba(255,255,255,.7);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.66rem;flex-shrink:0">Reality check</span><span style="font-size:.78rem">3% of $300,000 = $9,000</span></p>
         <p style="font-size:.85rem;color:rgba(255,255,255,.6);margin-bottom:18px">Prep day to closing day</p>
         <ul style="list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:24px;flex:1">
@@ -605,7 +598,7 @@ Cal.ns["15min"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#E08A5F"}},"hide
         <div data-zoom="" style="aspect-ratio:4/5;background:#FBEEE6"><img src="images/kurtis.png" alt="Kurtis — professional headshot / working photo" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block" /></div>
         <div style="padding:24px 26px 26px">
           <h3 style="font-size:1.3rem;font-weight:700;color:#2C2A28">Kurtis <span style="font-weight:500;font-size:.95rem;color:#8a857c">· Managing Broker</span></h3>
-          <p style="font-size:.95rem;color:#6B655C;margin-top:8px">Contracts, contingencies, and the strategy behind every FlightPlan.</p>
+          <p style="font-size:.95rem;color:#6B655C;margin-top:8px">Contracts and the strategy behind every FlightPlan.</p>
         </div>
       </article>
       <article data-lift="" style="background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 20px 44px -26px rgba(44,42,40,.4)">
@@ -619,76 +612,107 @@ Cal.ns["15min"]("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#E08A5F"}},"hide
   </div>
 </section>
 
-<!-- ALREADY HAVE AN AGENT -->
-<section id="agent" data-screen-label="Already have an agent" style="padding-block:clamp(60px,8vw,110px);background:#2C2A28;color:rgba(255,255,255,.76);overflow:hidden;position:relative">
-  <svg viewBox="0 0 100 100" aria-hidden="true" style="position:absolute;bottom:-12%;left:-4%;width:min(26vw,300px);opacity:.05;transform:rotate(-10deg);pointer-events:none"><path d="M 16 62 A 37 37 0 1 1 84 62" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"></path><path d="M50 30 L66 72 L50 61 L34 72 Z" fill="#fff"></path></svg>
-  <div style="max-width:1000px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px);position:relative">
-    <div data-reveal="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);text-align:center;max-width:680px;margin:0 auto clamp(36px,4.5vw,52px)">
-      <span style="display:inline-flex;align-items:center;gap:10px;font-size:.72rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#E9A57E;margin-bottom:18px">
-        <span style="width:22px;height:1px;background:#E9A57E;opacity:.5"></span>Already working with an agent?<span style="width:22px;height:1px;background:#E9A57E;opacity:.5"></span>
+<!-- FIT -->
+<section data-screen-label="Fit" style="padding-block:clamp(60px,8vw,110px);background:#F4EEE4;position:relative;overflow:hidden">
+  <div aria-hidden="true" style="position:absolute;inset:0;background-image:radial-gradient(rgba(44,42,40,.045) 1px,transparent 1px);background-size:26px 26px;opacity:.6;pointer-events:none"></div>
+  <div style="max-width:940px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px);position:relative">
+    <div data-reveal="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);text-align:center;max-width:640px;margin:0 auto clamp(36px,4.5vw,50px)">
+      <span style="display:inline-flex;align-items:center;gap:11px;font-size:.72rem;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:#C2703F;margin-bottom:18px">
+        <span style="width:24px;height:1px;background:#C2703F;opacity:.5"></span>Straight talk<span style="width:24px;height:1px;background:#C2703F;opacity:.5"></span>
       </span>
-      <h2 style="font-size:clamp(2rem,4.2vw,3.1rem);font-weight:700;color:#fff;letter-spacing:-.025em;line-height:1.05;text-wrap:balance">A signed agreement does not mean you should stop asking questions.</h2>
-      <p style="font-size:clamp(1rem,1.4vw,1.14rem);color:rgba(255,255,255,.62);margin-top:18px;line-height:1.55;text-wrap:pretty">HomePilot gives sellers an independent, broker-led perspective on pricing, positioning, offers, negotiation, communication, and next steps.</p>
+      <h2 style="font-size:clamp(2.2rem,4.6vw,3.4rem);font-weight:700;color:#26231F;letter-spacing:-.027em;line-height:1.04;text-wrap:balance">We&rsquo;d rather be honest than oversell.</h2>
+      <p style="font-size:clamp(1.02rem,1.5vw,1.2rem);color:#5F594F;margin-top:18px;line-height:1.55;text-wrap:pretty">A flat fee is a great deal for the right seller and the wrong choice for someone else. Here is where that line sits, before you spend a dollar.</p>
     </div>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:clamp(14px,2vw,20px)">
-      <article data-reveal="" data-lift="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);background:rgba(255,255,255,.055);border-radius:20px;padding:clamp(22px,2.8vw,30px);box-shadow:inset 0 0 0 1px rgba(255,255,255,.09)">
-        <div style="width:42px;height:42px;border-radius:12px;background:rgba(233,165,126,.16);display:flex;align-items:center;justify-content:center;margin-bottom:18px">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#E9A57E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:20px;height:20px"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+    <div data-fit-grid="" style="display:grid;gap:20px;align-items:stretch">
+      <div data-lift="" style="display:flex;flex-direction:column;background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 22px 48px -30px rgba(44,42,40,.5),inset 0 0 0 1px rgba(44,42,40,.06)">
+        <div style="height:5px;background:linear-gradient(90deg,#2F8560,#5FD9A6)"></div>
+        <div style="flex:1;padding:clamp(24px,3vw,32px)">
+          <p style="font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#1F6B4A;margin-bottom:7px">A strong fit</p>
+          <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:clamp(1.25rem,2vw,1.5rem);color:#26231F;letter-spacing:-.015em;margin-bottom:18px">This is built for you if you&hellip;</p>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:13px">
+          <li style="display:flex;gap:11px;align-items:flex-start;font-size:.98rem;color:#26231F;line-height:1.45">
+            <span style="width:22px;height:22px;border-radius:50%;background:#DFF0E5;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#1F6B4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:12px;height:12px"><path d="M20 6L9 17l-5-5"></path></svg>
+            </span>Want real control of your sale</li>
+          <li style="display:flex;gap:11px;align-items:flex-start;font-size:.98rem;color:#26231F;line-height:1.45">
+            <span style="width:22px;height:22px;border-radius:50%;background:#DFF0E5;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#1F6B4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:12px;height:12px"><path d="M20 6L9 17l-5-5"></path></svg>
+            </span>Are comfortable running your own showings</li>
+          <li style="display:flex;gap:11px;align-items:flex-start;font-size:.98rem;color:#26231F;line-height:1.45">
+            <span style="width:22px;height:22px;border-radius:50%;background:#DFF0E5;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#1F6B4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:12px;height:12px"><path d="M20 6L9 17l-5-5"></path></svg>
+            </span>Want experienced input on price and terms</li>
+          <li style="display:flex;gap:11px;align-items:flex-start;font-size:.98rem;color:#26231F;line-height:1.45">
+            <span style="width:22px;height:22px;border-radius:50%;background:#DFF0E5;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#1F6B4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:12px;height:12px"><path d="M20 6L9 17l-5-5"></path></svg>
+            </span>Would rather keep the equity than the hand-holding</li>
+          </ul>
         </div>
-        <h3 style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.14rem;color:#fff;margin-bottom:9px;line-height:1.25">Get a clear second opinion</h3>
-        <p style="font-size:.92rem;color:rgba(255,255,255,.6);line-height:1.55;text-wrap:pretty">Bring the strategy, recent activity, an offer, or the decision keeping you up at night. We'll help you understand whether the current approach makes sense, where risk may be hiding, and which questions are worth asking next.</p>
-      </article>
-
-      <article data-reveal="" data-d=".08s" data-lift="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);background:rgba(255,255,255,.055);border-radius:20px;padding:clamp(22px,2.8vw,30px);box-shadow:inset 0 0 0 1px rgba(255,255,255,.09)">
-        <div style="width:42px;height:42px;border-radius:12px;background:rgba(111,168,220,.16);display:flex;align-items:center;justify-content:center;margin-bottom:18px">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#6FA8DC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:20px;height:20px"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+      </div>
+      <div data-lift="" style="display:flex;flex-direction:column;background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 22px 48px -30px rgba(44,42,40,.5),inset 0 0 0 1px rgba(44,42,40,.06)">
+        <div style="height:5px;background:linear-gradient(90deg,#B4502F,#E08A5F)"></div>
+        <div style="flex:1;padding:clamp(24px,3vw,32px)">
+          <p style="font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#B4502F;margin-bottom:7px;white-space:nowrap">Probably not</p>
+          <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:clamp(1.25rem,2vw,1.5rem);color:#26231F;letter-spacing:-.015em;margin-bottom:18px">Maybe look elsewhere if you&hellip;</p>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:13px">
+          <li style="display:flex;gap:11px;align-items:flex-start;font-size:.98rem;color:#5F594F;line-height:1.45">
+            <span style="width:22px;height:22px;border-radius:50%;background:#F7E3DA;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#B4502F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:12px;height:12px"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+            </span>Need legal representation, not a high level marketing guide</li>
+          <li style="display:flex;gap:11px;align-items:flex-start;font-size:.98rem;color:#5F594F;line-height:1.45">
+            <span style="width:22px;height:22px;border-radius:50%;background:#F7E3DA;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#B4502F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:12px;height:12px"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+            </span>Believe the MLS is the only option available to you</li>
+          <li style="display:flex;gap:11px;align-items:flex-start;font-size:.98rem;color:#5F594F;line-height:1.45">
+            <span style="width:22px;height:22px;border-radius:50%;background:#F7E3DA;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#B4502F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:12px;height:12px"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+            </span>Would rather pay thousands of dollars to have paperwork sent for you</li>
+          </ul>
         </div>
-        <h3 style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.14rem;color:#fff;margin-bottom:9px;line-height:1.25">Strengthen the plan you already have</h3>
-        <p style="font-size:.92rem;color:rgba(255,255,255,.6);line-height:1.55;text-wrap:pretty">You may not need to replace anyone. HomePilot can give you an additional strategy perspective on pricing, market response, offers, negotiations, and seller decisions while respecting the representation agreement already in place.</p>
-      </article>
-
-      <article data-reveal="" data-d=".16s" data-lift="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);background:rgba(255,255,255,.055);border-radius:20px;padding:clamp(22px,2.8vw,30px);box-shadow:inset 0 0 0 1px rgba(255,255,255,.09)">
-        <div style="width:42px;height:42px;border-radius:12px;background:rgba(47,133,96,.2);display:flex;align-items:center;justify-content:center;margin-bottom:18px">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#7FCBA4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:20px;height:20px"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6"></path><path d="M9.5 15.5l5-5M14.5 15.5l-5-5"></path></svg>
-        </div>
-        <h3 style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.14rem;color:#fff;margin-bottom:9px;line-height:1.25">Understand your options before making a change</h3>
-        <p style="font-size:.92rem;color:rgba(255,255,255,.6);line-height:1.55;text-wrap:pretty">When the relationship is not working, start with clarity&mdash;not conflict. We'll help you understand the agreement, identify the practical questions to ask, and think through the available paths before you make a decision. We will not pressure you to leave or interfere with an active agency relationship.</p>
-      </article>
+      </div>
     </div>
-
-    <div data-reveal="" data-d=".24s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);text-align:center;margin-top:clamp(32px,4vw,44px)">
-      <button data-book-open="" data-shine="" style="display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:16px 30px;background:#E08A5F;color:#fff;border-radius:14px;font-family:'Quicksand',sans-serif;font-weight:700;font-size:1rem;min-height:54px;box-shadow:0 14px 30px -10px rgba(224,138,95,.55);transition:background .2s,box-shadow .2s" style-hover="background:#D06E42;box-shadow:0 18px 34px -10px rgba(224,138,95,.7)">Talk Through My Situation
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:16px;height:16px"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
-      </button>
-      <p style="font-size:.86rem;color:rgba(255,255,255,.6);margin-top:14px;line-height:1.55;max-width:560px;margin-inline:auto;text-wrap:pretty">Free 15-minute call. No pressure, and no assumption that changing agents is the right answer.</p>
-      <p style="font-size:.8rem;color:rgba(255,255,255,.42);margin-top:12px;line-height:1.55;max-width:560px;margin-inline:auto;text-wrap:pretty">HomePilot does not interfere with an active agency relationship. Any decision to remain, request changes, seek a release, or pursue a different path belongs to the seller. Depending on the issue, we may recommend speaking directly with the current agent, managing broker, or an attorney.</p>
-    </div>
+    <p data-reveal="" data-d=".12s" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);text-align:center;font-size:1rem;color:#5F594F;max-width:600px;margin:clamp(30px,4vw,42px) auto 0;line-height:1.6;text-wrap:pretty">If the right column sounds like you, say so on the call and we will point you somewhere better. <strong style="color:#26231F">A bad fit costs you more than a commission does.</strong></p>
   </div>
 </section>
 
-<!-- FIT -->
-<section data-screen-label="Fit" style="padding-block:clamp(56px,7vw,100px);background:#F4EEE4">
-  <div style="max-width:900px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px)">
-    <div data-reveal="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);text-align:center;max-width:600px;margin:0 auto 36px">
-      <h2 style="font-size:clamp(2rem,3.8vw,3rem);font-weight:700;color:#2C2A28;letter-spacing:-.02em;line-height:1.08">We'd rather be honest than oversell.</h2>
+<!-- SELLER SYSTEM -->
+<section id="system" data-screen-label="Seller System" style="padding-block:clamp(60px,8vw,110px);background:#2C2A28;color:rgba(255,255,255,.78);overflow:hidden;position:relative">
+  <svg viewBox="0 0 100 100" aria-hidden="true" style="position:absolute;top:-8%;right:-4%;width:min(28vw,320px);opacity:.05;transform:rotate(12deg);pointer-events:none"><path d="M 16 62 A 37 37 0 1 1 84 62" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"></path><path d="M50 30 L66 72 L50 61 L34 72 Z" fill="#fff"></path><path d="M50 78 L57 90 L43 90 Z" fill="#fff"></path></svg>
+  <div style="max-width:1120px;margin-inline:auto;padding-inline:clamp(18px,4vw,36px);position:relative">
+    <div data-reveal="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);text-align:center;max-width:660px;margin:0 auto 44px">
+      <span style="display:inline-flex;align-items:center;gap:8px;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#E08A5F;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);padding:7px 14px;border-radius:100px;margin-bottom:16px"><span style="width:6px;height:6px;border-radius:50%;background:#E08A5F"></span>The HomePilot Seller System&trade;</span>
+      <h2 style="font-size:clamp(2rem,3.8vw,3rem);font-weight:700;color:#fff;letter-spacing:-.02em;line-height:1.08;margin:12px 0 12px">Six decisions decide your price.</h2>
+      <p style="font-size:1rem;color:rgba(255,255,255,.6)">We cover every one. Tap a card.</p>
     </div>
-    <div data-fit-grid="" style="display:grid;gap:18px">
-      <div style="background:#fff;border-radius:22px;padding:clamp(22px,3vw,28px);border:1px solid rgba(44,42,40,.07)">
-        <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px"><span style="width:32px;height:32px;border-radius:50%;background:#E8F1E9;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="#4E9A63" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="width:17px;height:17px"><path d="M20 6L9 17l-5-5"></path></svg></span><p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.1rem;color:#2C2A28">For you if you&hellip;</p></div>
-        <ul style="list-style:none;display:flex;flex-direction:column;gap:10px">
-          <li style="display:flex;gap:10px;font-size:.95rem;color:#2C2A28"><svg viewBox="0 0 24 24" fill="none" stroke="#4E9A63" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:15px;height:15px;flex-shrink:0;margin-top:5px"><path d="M20 6L9 17l-5-5"></path></svg>Want control of your sale</li>
-          <li style="display:flex;gap:10px;font-size:.95rem;color:#2C2A28"><svg viewBox="0 0 24 24" fill="none" stroke="#4E9A63" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:15px;height:15px;flex-shrink:0;margin-top:5px"><path d="M20 6L9 17l-5-5"></path></svg>Can run showings yourself</li>
-          <li style="display:flex;gap:10px;font-size:.95rem;color:#2C2A28"><svg viewBox="0 0 24 24" fill="none" stroke="#4E9A63" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:15px;height:15px;flex-shrink:0;margin-top:5px"><path d="M20 6L9 17l-5-5"></path></svg>Want expert input on price and terms</li>
-        </ul>
-      </div>
-      <div style="background:#fff;border-radius:22px;padding:clamp(22px,3vw,28px);border:1px solid rgba(44,42,40,.07)">
-        <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px"><span style="width:32px;height:32px;border-radius:50%;background:#F3E2DA;display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="#C25B3A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="width:17px;height:17px"><path d="M18 6L6 18M6 6l12 12"></path></svg></span><p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.1rem;color:#2C2A28">Not if you&hellip;</p></div>
-        <ul style="list-style:none;display:flex;flex-direction:column;gap:10px">
-          <li style="display:flex;gap:10px;font-size:.95rem;color:#6B655C"><svg viewBox="0 0 24 24" fill="none" stroke="#C25B3A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:15px;height:15px;flex-shrink:0;margin-top:5px"><path d="M18 6L6 18M6 6l12 12"></path></svg>Want everything handled for you</li>
-          <li style="display:flex;gap:10px;font-size:.95rem;color:#6B655C"><svg viewBox="0 0 24 24" fill="none" stroke="#C25B3A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:15px;height:15px;flex-shrink:0;margin-top:5px"><path d="M18 6L6 18M6 6l12 12"></path></svg>Need legal representation</li>
-          <li style="display:flex;gap:10px;font-size:.95rem;color:#6B655C"><svg viewBox="0 0 24 24" fill="none" stroke="#C25B3A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:15px;height:15px;flex-shrink:0;margin-top:5px"><path d="M18 6L6 18M6 6l12 12"></path></svg>Aren't selling within a year</li>
-        </ul>
+    <div data-system-grid="" style="display:grid;gap:14px;max-width:1000px;margin:0 auto">
+      <sc-for list="{{ pillars }}" as="p" hint-placeholder-count="6">
+        <div data-pillar="" role="button" tabindex="0" aria-expanded="false" style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:22px 22px;cursor:pointer;transition:background .3s,border-color .3s">
+          <div style="display:flex;align-items:center;gap:14px">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#6FA8DC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:22px;height:22px;flex-shrink:0"><path d="{{ p.icon }}"></path></svg>
+            <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.1rem;color:#fff;flex:1">{{ p.title }}</p>
+            <svg data-pillar-plus="" viewBox="0 0 24 24" fill="none" stroke="#E08A5F" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" style="width:18px;height:18px;flex-shrink:0;transition:transform .35s cubic-bezier(.22,1,.36,1)"><path d="M12 5v14M5 12h14"></path></svg>
+          </div>
+          <div data-pillar-body="" style="overflow:hidden;max-height:0;opacity:0;transition:max-height .45s cubic-bezier(.22,1,.36,1),opacity .35s">
+            <p style="font-size:.92rem;color:rgba(255,255,255,.66);padding-top:12px">{{ p.text }}</p>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+    <div data-reveal="" style="opacity:0;transform:translateY(20px);transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1);margin:56px auto 0;max-width:900px">
+      <div data-steps-grid="" style="display:grid;gap:24px">
+        <sc-for list="{{ steps }}" as="s" hint-placeholder-count="3">
+          <div data-step="" data-cd="{{ s.cd }}" style="text-align:center;padding:0 8px">
+            <div style="width:78px;height:78px;margin:0 auto 16px;position:relative">
+              <svg viewBox="0 0 100 100" style="width:100%;height:100%;transform:rotate(-90deg)">
+                <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="7"></circle>
+                <circle data-ring="" cx="50" cy="50" r="44" fill="none" stroke="#6FA8DC" stroke-width="7" stroke-linecap="round" stroke-dasharray="276" stroke-dashoffset="276"></circle>
+              </svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="position:absolute;inset:0;margin:auto;width:30px;height:30px"><path data-mark="" d="M20 6L9 17l-5-5" stroke-dasharray="30" stroke-dashoffset="30"></path></svg>
+            </div>
+            <p style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.15rem;color:#fff;margin-bottom:6px">{{ s.title }}</p>
+            <p style="font-size:.92rem;color:rgba(255,255,255,.66)">{{ s.text }}</p>
+          </div>
+        </sc-for>
       </div>
     </div>
   </div>
@@ -855,20 +879,20 @@ class Component extends DCLogic {
         { tag: 'Close', title: 'Inspection & closing playbook', body: 'Scripts for the inspection response, disclosure language, and a walkthrough of the documents you\u2019ll sign.', risk: 'A deal that falls apart late' }
       ],
       faqs: [
-        { q: 'Why would I pay you when an agent only gets paid if it sells?', a: 'Because “only if it sells” is why nobody tells you your price is wrong — the payday depends on you staying happy, not on you being told the truth. Our fee is fixed and half of it is due at closing, so we are paid for being right — not for the size of your house. On a $400,000 sale that’s $1,994 instead of roughly $12,000.' },
-        { q: 'Wait — so I still have to sell it myself?', a: 'You stay the seller of record, which is exactly how you avoid a listing commission, but you are never doing it alone. We build the price, the positioning, the negotiation strategy, and the counters — you send them and sign them. Every decision is yours, made with a licensed broker in your ear.' },
-        { q: '$1,994 is real money. What if it doesn’t work?', a: 'You never pay it all at once: $997 up front and the second $997 only at closing, so half the fee depends on your sale actually finishing. Nothing is due until after a free 15-minute call where we tell you honestly whether we can help. If a deal collapses, your FlightPlan support continues through the relist and the next contract at no extra cost.' },
-        { q: 'Can I really negotiate as well as an agent?', a: 'You don’t have to — we write the counters, the inspection responses, and the language, and you deliver them. Sellers usually find it easier, because they’re reading a script built by a broker instead of improvising on a phone call. The strategy is professional even when the voice is yours.' },
-        { q: 'What if I already signed with an agent?', a: 'A second opinion costs you nothing and breaks nothing. We give you independent perspective on pricing, market response, and offers while fully respecting the agreement you already have in place. If the right move is a direct conversation with your agent or their managing broker, we’ll tell you that instead of selling you something.' },
-        { q: 'Do you even work in my state?', a: 'Consultations are virtual and available nationwide, and strategy travels with your market. Some services depend on local licensing rules, so we confirm exactly what we can and can’t do for your state on the free call. You’ll know before you spend a dollar.' }
+        { q: 'Why would I pay you when an agent only gets paid if it sells?', a: 'Because “only if it sells” is the reason nobody tells you your price is wrong. The payday depends on you staying happy, not on you hearing the truth. Our fee is fixed and half of it is due at closing, so we get paid for being right, not for the size of your house. On a $400,000 sale that is under $2,000 instead of roughly $12,000.' },
+        { q: 'So I still have to sell it myself?', a: 'You stay the seller of record. That is how you avoid a listing commission, but you are never doing it alone. We build the price, the positioning, the negotiation strategy, and the counters. You send them and sign them. Every decision is yours, made with a licensed broker in your ear.' },
+        { q: 'How does the payment work?', a: 'It is $997 to start and $997 at closing. Most sellers have the second half paid straight from their proceeds at the closing table, so nothing comes out of pocket twice. Half the fee depends on your sale actually finishing. Nothing is due until after a free 15-minute call where we tell you whether we can help. If a deal collapses, your FlightPlan support continues through the relist and the next contract at no extra cost.' },
+        { q: 'Can I really negotiate as well as an agent?', a: 'You do not have to. We write the counters, the inspection responses, and the language, and you deliver them. Most sellers find it easier that way, because they are reading a script built by a broker instead of improvising on a phone call. The strategy is professional even when the voice is yours.' },
+        { q: 'What if I already signed with an agent?', a: 'A second opinion costs you nothing and breaks nothing. We give you independent perspective on pricing, market response, and offers while fully respecting the agreement you already have in place. If the right move is a direct conversation with your agent or their managing broker, we will tell you that instead of selling you something.' },
+        { q: 'Do you work in my state?', a: 'Consultations are virtual and available nationwide. Some services depend on local licensing rules, so we confirm what we can and cannot do for your state on the free call. You will know before you spend a dollar.' }
       ],
       faqsMore: [
-        { q: 'What exactly is HomePilot to me, legally?', a: 'A flat-fee real estate strategy consultant and guide. Our team holds active broker and sales-agent licenses, but a consulting engagement doesn’t make us your listing agent or attorney unless we agree to that separately in writing. You stay the seller of record and keep control of your sale.' },
+        { q: 'What exactly is HomePilot to me, legally?', a: 'A flat-fee real estate strategy consultant and guide. Our team holds active broker and sales-agent licenses, but a consulting engagement does not make us your listing agent or attorney unless we agree to that separately in writing. You stay the seller of record and keep control of your sale.' },
         { q: 'Is the $149 Clarity Session credited toward the FlightPlan?', a: 'Yes. If you start with a Clarity Session and later upgrade, the $149 is credited in full toward the Seller FlightPlan. You never pay twice for the same advice.' },
-        { q: 'Do you put my home on the MLS and handle showings?', a: 'As a rule, no — you stay the seller of record and run showings and buyer communication yourself, which is how you avoid a listing commission. We coach you through each step and point you to flat-fee MLS options where they make sense for your state.' },
-        { q: 'Do you negotiate directly with the buyer or their agent?', a: 'We coach you through negotiation and draft your counters and responses, but you (or your attorney or closing agent) communicate them. We’re in your ear the whole way.' },
+        { q: 'Do you put my home on the MLS and handle showings?', a: 'As a rule, no. You stay the seller of record and run showings and buyer communication yourself, which is how you avoid a listing commission. We coach you through each step and point you to flat-fee MLS options where they make sense for your state.' },
+        { q: 'Do you negotiate directly with the buyer or their agent?', a: 'We coach you through negotiation and draft your counters and responses, but you (or your attorney or closing agent) communicate them. We are in your ear the whole way.' },
         { q: 'How fast will I hear back once I’m a client?', a: 'FlightPlan clients get a direct line to Ty or Kurtis with a same-business-day response target on weekdays. Time-sensitive items during an active negotiation are prioritized.' },
-        { q: 'What if I decide I’d rather have a traditional agent?', a: 'We’ll say so honestly if full representation is the better fit for your situation, and we can point you to a trusted agent. We’d rather lose the sale than take $1,994 from someone we can’t help.' }
+        { q: 'What if I decide I would rather have a traditional agent?', a: 'We will say so if full representation is the better fit for your situation, and we can point you to a trusted agent. We would rather lose the sale than take money from someone we cannot help.' }
       ]
     };
   }
@@ -1081,8 +1105,27 @@ class Component extends DCLogic {
         if (diffOut) diffOut.textContent = diffStr;
         if (tradFeeOut) tradFeeOut.textContent = '\u2212' + fmt(price * 0.06);
         if (tabAmount) tabAmount.textContent = diffStr;
+        syncText();
         setFill();
       };
+      const textIn = scope.querySelector('[data-calc-text]');
+      const syncText = () => { if (textIn && document.activeElement !== textIn) textIn.value = Math.round(parseFloat(priceIn.value) || 0).toLocaleString('en-US'); };
+      if (textIn) {
+        textIn.addEventListener('input', () => {
+          const raw = textIn.value.replace(/[^0-9]/g, '');
+          if (!raw) return;
+          priceIn.value = String(Math.max(0, Math.min(1000000, parseInt(raw, 10))));
+          update();
+        });
+        textIn.addEventListener('blur', () => {
+          const raw = textIn.value.replace(/[^0-9]/g, '');
+          const v = Math.max(50000, Math.min(1000000, parseInt(raw, 10) || 450000));
+          priceIn.value = String(v);
+          update();
+          textIn.value = v.toLocaleString('en-US');
+        });
+        textIn.addEventListener('keydown', e => { if (e.key === 'Enter') textIn.blur(); });
+      }
       const hint = scope.querySelector('[data-calc-hint]');
       let hintGone = false;
       priceIn.addEventListener('input', () => {
