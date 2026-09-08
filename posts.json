@@ -1,6 +1,81 @@
 {
   "posts": [
     {
+      "slug": "how-to-prepare-your-home-for-a-showing",
+      "title": "How Should You Prepare Your Home for a Showing?",
+      "kicker": "Showings",
+      "excerpt": "Staging isn't decorating. It's removing every reason a buyer might hesitate.",
+      "image": "images/blog/staged-living-room.jpg",
+      "accent": "#6FA8DC",
+      "metaDescription": "How to stage and prepare your home for showings as a FSBO seller: lighting, decluttering, room-by-room preparation, and what buyers notice first.",
+      "body": [
+        {
+          "p": "If you're going to sell a product, it needs to look good. That's the whole premise of staging, and it applies to a $180,000 starter home as much as it does to anything at the top of your market."
+        },
+        {
+          "p": "The goal isn't to make your home look like a magazine. It's to make it easy for a stranger to picture their life in it — and to give them nothing to hesitate about."
+        },
+        {
+          "h": "Depersonalize before you decorate"
+        },
+        {
+          "p": "Family photos, collections, trophies, and the wall of kids' artwork all make a home yours, which is exactly the problem. A buyer walking past your family history is reminded, constantly, that this is someone else's house."
+        },
+        {
+          "p": "Pack the personal items first. Then clear flat surfaces — counters, the dining table, dressers, the coffee table — leaving three or four intentional pieces where there were twenty."
+        },
+        {
+          "h": "Light is the cheapest upgrade you have"
+        },
+        {
+          "p": "Open every blind and curtain. Turn on every light in the house, including the ones you never use, and replace any bulb that's burnt out or a different color temperature than its neighbors. Wash the windows so the natural light actually gets in."
+        },
+        {
+          "p": "Dim, closed-up rooms read as small and slightly sad. The same room with light in it reads as bigger. Nothing you can buy delivers that much perceived value for that little money."
+        },
+        {
+          "p": "Do this before every single showing, not just the first one. It takes about four minutes once you know the route, and buyers touring at four in the afternoon deserve the same house the ten o'clock buyers saw. Sellers get lax about it by the second week, right when the remaining buyers are the most price-sensitive ones."
+        },
+        {
+          "h": "Room by room, quickly"
+        },
+        {
+          "list": [
+            "Kitchen — clear the counters to three or four essentials, towels and soaps out of sight, small appliances packed away",
+            "Bathrooms — make them look barely used; medications, cosmetics, and styling tools stored out of view",
+            "Bedrooms — thin the closets so the space reads as generous, beds made, surfaces clear",
+            "Living areas — remotes, magazines, toys, and throws gathered into bins or closets",
+            "Garage — the most daunting and most skipped; donate or discard, then shelve what's left"
+          ]
+        },
+        {
+          "pull": "You are not tidying. You are removing every question a buyer could ask about the house instead of about their future in it."
+        },
+        {
+          "h": "The pet conversation"
+        },
+        {
+          "p": "Not fun, but it matters. Pets are wonderful and they are not a selling feature. Dander is a genuine obstacle for allergic buyers, and pet bowls, beds, and litter boxes raise questions about what's been running through the house."
+        },
+        {
+          "p": "Minimize the evidence, and get pets out of the home during showings if you possibly can."
+        },
+        {
+          "h": "Before you unlock the door"
+        },
+        {
+          "p": "Walk the route a buyer will walk, in order, and look at what they'll see at each turn. Set the thermostat somewhere comfortable. Take out the trash. Deal with any smell you've grown used to — cooking, pets, damp — because you won't notice it and they will immediately."
+        },
+        {
+          "p": "Knowing which of these actually affects offers in your price range, versus which are just effort, is the kind of thing our flat-fee guidance at HomePilot helps sellers sort out before the first showing rather than after the third."
+        },
+        {
+          "p": "Buyers decide fast. Give them a bright, clear, unremarkable-in-the-best-way house, and let them start imagining."
+        }
+      ],
+      "date": "2026-09-08"
+    },
+    {
       "slug": "how-to-market-a-home-without-an-agent",
       "title": "How Do You Market a Home Without a Real Estate Agent?",
       "kicker": "Marketing",
