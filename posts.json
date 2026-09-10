@@ -1,6 +1,83 @@
 {
   "posts": [
     {
+      "slug": "why-buyers-loan-approval-matters",
+      "title": "Why Should You Care About Your Buyer's Loan Approval?",
+      "kicker": "Qualifying buyers",
+      "excerpt": "An unqualified buyer doesn't just waste your Saturday. They can cost you weeks of market momentum.",
+      "image": "images/blog/open-living-dining.jpg",
+      "accent": "#BC5730",
+      "metaDescription": "How to qualify buyers as a FSBO seller: pre-approval vs pre-qualification, loan types, and why an unverified buyer can cost you weeks on the market.",
+      "body": [
+        {
+          "p": "A buyer calls, wants to see the house today, sounds genuinely excited. You ask whether they've spoken to a lender. There's a pause. \"A lender? Like, for a loan?\""
+        },
+        {
+          "p": "That conversation happens more than you'd think, and it's the reason to build one habit early: verify before you invest time."
+        },
+        {
+          "h": "The real cost of an unqualified buyer"
+        },
+        {
+          "p": "Showing a house to someone who can't buy it costs you an afternoon. That's annoying but survivable. The expensive version is accepting an offer from someone who can't close."
+        },
+        {
+          "p": "When that happens, your listing goes off the market, other buyers move on, and thirty days later you're back on with a stale date on your listing and the market's momentum spent. That's the outcome to protect against."
+        },
+        {
+          "h": "Pre-qualified is not pre-approved"
+        },
+        {
+          "p": "These sound interchangeable and are not. A pre-qualification is generally based on information the buyer told a lender about themselves. A pre-approval means the lender has actually verified income, assets, and credit."
+        },
+        {
+          "p": "Ask for a pre-approval letter, ideally with a lender's name and phone number on it. Then — this is the step sellers skip — call the lender. A two-minute conversation confirming the letter is current and the buyer is still on track is the highest-value phone call in your entire sale."
+        },
+        {
+          "pull": "Ask every serious buyer the same question, at the same point, before scheduling. It isn't rude — it's the job."
+        },
+        {
+          "h": "What to ask, politely"
+        },
+        {
+          "list": [
+            "Have you spoken with a lender, and can you send me the pre-approval letter?",
+            "What loan program are you using, and what's the down payment?",
+            "Are you contingent on selling another home first?",
+            "Has anything changed since the letter was issued?"
+          ]
+        },
+        {
+          "p": "Any legitimate buyer expects these questions. Reluctance to answer them is itself the answer."
+        },
+        {
+          "h": "Why the loan program matters to you"
+        },
+        {
+          "p": "Different programs bring different requirements, timelines, and appraisal standards, and some come with closing costs that get framed in negotiation as the seller's responsibility — commonly around 3% of the purchase price. Knowing the program up front tells you what to expect and what to watch for in the offer."
+        },
+        {
+          "p": "It also tells you something about timeline. A cash buyer and a buyer with a program requiring specific property conditions are not the same deal at the same price."
+        },
+        {
+          "p": "And a cash offer deserves the same scrutiny, just in a different form. Ask for proof of funds — a recent bank or brokerage statement — rather than taking the word \"cash\" as its own verification. Cash offers skip the lender and the appraisal, which removes two failure points, but only if the money is actually sitting there."
+        },
+        {
+          "h": "Keeping it professional"
+        },
+        {
+          "p": "Stay friendly. Also stay slightly formal. It's genuinely tempting to become friends with an enthusiastic buyer, and that's exactly how sellers end up making verbal promises they get held to later. Keep a professional distance and let the paperwork carry the agreements."
+        },
+        {
+          "p": "Screening buyers, reading their financing, and spotting the terms that will cost you money later is core to what we do with sellers at HomePilot — broker-level review of every offer, at a flat fee rather than a slice of your equity."
+        },
+        {
+          "p": "Verify first. Your Saturdays and your market momentum are both worth protecting."
+        }
+      ],
+      "date": "2026-09-10"
+    },
+    {
       "slug": "how-to-prepare-your-home-for-a-showing",
       "title": "How Should You Prepare Your Home for a Showing?",
       "kicker": "Showings",
