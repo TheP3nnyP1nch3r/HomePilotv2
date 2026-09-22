@@ -1,6 +1,78 @@
 {
   "posts": [
     {
+      "slug": "should-you-accept-the-first-offer",
+      "title": "Should You Accept the First Offer You Get?",
+      "kicker": "Offers",
+      "excerpt": "An early offer feels like proof more is coming. Sometimes it is. Often it's the best one you'll see.",
+      "image": "images/blog/blue-front-porch.jpg",
+      "accent": "#E08A5F",
+      "metaDescription": "Should home sellers accept the first offer? How to evaluate an early offer, when to wait for a bidding war, and the risk of banking on more buyers.",
+      "body": [
+        {
+          "p": "An offer lands on day two. Suddenly you're certain the house will sell easily, and maybe a bidding war is coming. Why accept the first thing that arrives?"
+        },
+        {
+          "p": "Maybe you shouldn't. But this is one of the most expensive places for confidence to go unexamined, so it's worth thinking through carefully rather than instinctively."
+        },
+        {
+          "h": "Why an early offer is often a good offer"
+        },
+        {
+          "p": "The buyers who move fastest are usually the ones who have been looking longest. They know the inventory, they recognize a home that fits when they see it, and they're pre-approved and ready because they've already lost out on something."
+        },
+        {
+          "p": "So the question to sit with is this: if a buyer wants your home badly enough to make a solid offer on the first day, do you really want to set them aside and hope for people who are less interested?"
+        },
+        {
+          "h": "The math of the first two weeks"
+        },
+        {
+          "p": "Your listing generates the most traffic it will ever see in its first two weeks, because everyone with a matching saved search gets notified the day you go live. That's your peak audience, not a preview of a rising one."
+        },
+        {
+          "p": "After that, weekly traffic declines and your listing accumulates days on market — which buyers read as a signal that something's wrong. Banking on a bidding war can cost you a quick, clean sale and leave you negotiating from a weaker position a month later."
+        },
+        {
+          "pull": "Let every showing that's already booked go ahead before you decide. It's fair to the people who scheduled, and it creates real competition rather than hypothetical competition."
+        },
+        {
+          "h": "A rule of thumb that works"
+        },
+        {
+          "p": "Don't accept or reject on the spot. Let the showings already on the calendar proceed as scheduled, then decide."
+        },
+        {
+          "p": "This is a practice buyers respect — you're honoring people who booked before them — and it lets you mention, professionally and accurately, that there's an offer in hand to the people already serious enough to be touring. That's how genuine competition gets created, and it's very different from turning down a good offer to wait for a better one that may not exist."
+        },
+        {
+          "h": "Read the terms, not just the number"
+        },
+        {
+          "list": [
+            "Is the buyer pre-approved, and have you called the lender to confirm?",
+            "How much earnest money, and is it going to the title company?",
+            "What closing costs are you being asked to cover? Some loan programs push roughly 3% of the price onto the seller.",
+            "Is the offer contingent on selling another home?",
+            "Does the closing date work for your own move?"
+          ]
+        },
+        {
+          "p": "A slightly lower price with clean terms and a verified buyer frequently nets you more than a higher price attached to conditions and uncertainty."
+        },
+        {
+          "h": "The decision underneath"
+        },
+        {
+          "p": "You're weighing a real offer in hand against a hypothetical better one. Evaluating that honestly — against your market's inventory, your timeline, and the actual terms in front of you — is exactly the kind of call we help sellers make at HomePilot, on a flat fee rather than a commission that grows with your price."
+        },
+        {
+          "p": "A strong early offer is usually a signal you priced it right, not a sign you priced it too low."
+        }
+      ],
+      "date": "2026-09-22"
+    },
+    {
       "slug": "what-happens-if-the-appraisal-comes-in-low",
       "title": "What Happens If the Appraisal Comes In Low?",
       "kicker": "Appraisals",
