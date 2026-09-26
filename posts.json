@@ -1,6 +1,76 @@
 {
   "posts": [
     {
+      "slug": "are-your-pets-costing-you-money",
+      "title": "Are Your Pets Costing You Money on Your Sale?",
+      "kicker": "Preparation",
+      "excerpt": "Nobody enjoys this conversation. It's still one of the most common avoidable discounts we see.",
+      "image": "images/blog/bungalow-porch.jpg",
+      "accent": "#6FA8DC",
+      "metaDescription": "How pets affect home sale price: odor, dander, damage, and what pet owners should do before showings to avoid lower offers from buyers.",
+      "body": [
+        {
+          "p": "Let's be upfront: this isn't a fun subject, and it isn't a judgment about your animals. It's a practical point about what buyers notice, and it costs sellers real money often enough to be worth saying plainly."
+        },
+        {
+          "p": "Pets are wonderful. They are not a feature of your home, and buyers want to see the house without them."
+        },
+        {
+          "h": "Three separate problems"
+        },
+        {
+          "p": "It helps to split this up, because the fixes are different."
+        },
+        {
+          "list": [
+            "Odor. The biggest one, and the one you genuinely cannot assess yourself — you've been nose-blind to your own home for years.",
+            "Dander and allergies. A meaningful share of buyers are allergic, and a reaction during a showing ends the showing emotionally, whatever they say politely.",
+            "Visible evidence. Bowls, beds, crates, litter boxes, scratched trim, worn carpet paths. Each one raises the question of what has been running through this house."
+          ]
+        },
+        {
+          "h": "Start with an honest nose"
+        },
+        {
+          "p": "Ask a friend who hasn't been to your home recently to walk in and tell you the truth. Not \"does it smell bad\" — ask \"what do you smell?\" You need a real answer, and most people will soften it unless you ask for the unsoftened version."
+        },
+        {
+          "p": "Then treat the cause rather than covering it. Carpet and padding hold odor at the padding level, so surface cleaning often isn't enough; professional treatment or replacement is sometimes the only real fix. Hard floors need the grout and baseboards addressed. Air fresheners and plug-ins broadcast that something is being masked, which is worse than a faint smell."
+        },
+        {
+          "pull": "Buyers assign far more value to negatives than positives. A pet odor becomes a number in their head before they've seen the second bedroom."
+        },
+        {
+          "h": "Before every showing"
+        },
+        {
+          "p": "Get the animals out of the house if you can — a walk, a neighbor, a few hours at daycare. Barring that, they should be genuinely out of the way rather than in a crate in the middle of the living room."
+        },
+        {
+          "p": "Then remove the evidence: bowls and mats put away, beds and toys in a closet, litter box cleaned and stored, throws with hair on them laundered. Vacuum right before, including furniture and the edges of rooms where hair collects."
+        },
+        {
+          "h": "Repair the damage buyers price"
+        },
+        {
+          "p": "Scratched door frames, chewed trim, worn carpet in traffic paths, and screen damage all read as deferred maintenance and get valued generously against you. These are inexpensive repairs relative to the discount they invite — the same principle as any other value red flag."
+        },
+        {
+          "h": "Worth keeping in proportion"
+        },
+        {
+          "p": "None of this means pet owners can't sell well. It means the presence of pets needs to be minimized rather than explained, so buyers can view the home unimpeded by questions about it."
+        },
+        {
+          "p": "Knowing which of these actually affects offers in your market — and which are worth the money to fix before listing — is the kind of specific, unsentimental read our flat-fee guidance at HomePilot is built to give sellers."
+        },
+        {
+          "p": "Take the dog for a long walk on showing day. It's the easiest money in this whole article."
+        }
+      ],
+      "date": "2026-09-26"
+    },
+    {
       "slug": "what-to-do-if-your-sale-falls-through",
       "title": "What Do You Do If Your Sale Falls Through?",
       "kicker": "Setbacks",
